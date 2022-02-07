@@ -1,7 +1,7 @@
 [
     {
         "Product": "stable",
-        "CheckTime": "2022-02-07 11:19:07",
+        "CheckTime": "2022-02-07 23:23:46",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -55,7 +55,7 @@
     },
     {
         "Product": "beta",
-        "CheckTime": "2022-02-07 11:19:07",
+        "CheckTime": "2022-02-07 23:23:46",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -109,7 +109,7 @@
     },
     {
         "Product": "dev",
-        "CheckTime": "2022-02-07 11:19:07",
+        "CheckTime": "2022-02-07 23:23:46",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -163,7 +163,7 @@
     },
     {
         "Product": "canary",
-        "CheckTime": "2022-02-07 11:19:07",
+        "CheckTime": "2022-02-07 23:23:46",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -199,19 +199,19 @@
             },
             {
                 "Architecture": "mac-x64",
-                "Version": "100.0.4868.0",
-                "ReleaseName": "GoogleChromeCanary-100.0.4868.0.dmg",
+                "Version": "100.0.4875.0",
+                "ReleaseName": "GoogleChromeCanary-100.0.4875.0.dmg",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg",
-                    "https://dl.google.com/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg",
-                    "https://www.google.com/dl/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg",
-                    "http://dl.google.com/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg",
-                    "http://www.google.com/dl/release2/chrome/acjzq7kt3sfuujh7ryegy2kq5fja_100.0.4868.0/GoogleChromeCanary-100.0.4868.0.dmg"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg",
+                    "https://dl.google.com/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg",
+                    "https://www.google.com/dl/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg",
+                    "http://dl.google.com/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg",
+                    "http://www.google.com/dl/release2/chrome/aigtkqhy7sbewz3qkhjpoeizqe_100.0.4875.0/GoogleChromeCanary-100.0.4875.0.dmg"
                 ],
-                "Hash": "1ae075bdc63de368eed56c08f564e54345c84d0aa20e5f2fda94366cb59f8a31",
+                "Hash": "cb4829f5d36596c281ca123e2e02f8431a1cf7070302747698e1176841b8ab0f",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "190470937"
+                "SizeInBytes": "188934734"
             }
         ]
     }
