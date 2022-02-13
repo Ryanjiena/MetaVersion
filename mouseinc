@@ -1,7 +1,7 @@
 {
-    "check": "2022-01-15 06:31:02",
-    "version": "2.11.9",
-    "description": "优化不显示手势时效率",
-    "url": "https://update.shuax.com/MouseInc/update2.11.9.zip",
-    "hash": "UXnnV+6RD4SQc1nwGzTnHViJwmb9Zw72QszcrBCAwnA="
+    "check": "2022-02-13 11:20:27",
+    "version": "2.11.10",
+    "description": "修复设置界面被提示由自动测试软件控制",
+    "url": "https://update.shuax.com/MouseInc/update2.11.10.zip",
+    "hash": "3hvrrjJFDGEzxYer/DYkhm7SwSr69kjjdhose/2jEKY="
 }
