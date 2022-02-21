@@ -1,8 +1,8 @@
-version: 2.3.8
+version: 2.3.9
 files:
-  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/2.3.8/update/win32/ia32/aDrive-2.3.8.exe
-    sha512: 082c48EQbAIiRjrp+7eBa/v8DeA2rI85ZvaCQIuu+8gtBpFCktrOuwgfeH7Y9Qa8NHauYSatlFAZ5NE51r1HtQ==
-    size: 73272643
-path: aDrive-2.3.8.exe
-sha512: 082c48EQbAIiRjrp+7eBa/v8DeA2rI85ZvaCQIuu+8gtBpFCktrOuwgfeH7Y9Qa8NHauYSatlFAZ5NE51r1HtQ==
-releaseDate: 2022-02-09T08:54:15.567Z
+  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/2.3.9/update/win32/ia32/aDrive-2.3.9.exe
+    sha512: 3T7yb9pOEu54mNykpEaga3nj0gYQvGAbzSHgu0611eXJJu0SxeZmj072H9GmGYtyBoibAyUAXTSHs6dj7nqsEQ==
+    size: 73276144
+path: aDrive-2.3.9.exe
+sha512: 3T7yb9pOEu54mNykpEaga3nj0gYQvGAbzSHgu0611eXJJu0SxeZmj072H9GmGYtyBoibAyUAXTSHs6dj7nqsEQ==
+releaseDate: 2022-02-17T13:36:54.979Z
