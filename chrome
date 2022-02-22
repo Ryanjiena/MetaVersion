@@ -1,7 +1,7 @@
 [
     {
         "Product": "stable",
-        "CheckTime": "2022-02-22 11:20:38",
+        "CheckTime": "2022-02-22 23:24:16",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -55,7 +55,7 @@
     },
     {
         "Product": "beta",
-        "CheckTime": "2022-02-22 11:20:38",
+        "CheckTime": "2022-02-22 23:24:16",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -109,7 +109,7 @@
     },
     {
         "Product": "dev",
-        "CheckTime": "2022-02-22 11:20:38",
+        "CheckTime": "2022-02-22 23:24:16",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -145,25 +145,25 @@
             },
             {
                 "Architecture": "mac-x64",
-                "Version": "98.0.4758.102",
-                "ReleaseName": "GoogleChrome-98.0.4758.102.dmg",
+                "Version": "98.0.4758.109",
+                "ReleaseName": "GoogleChrome-98.0.4758.109.dmg",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg",
-                    "https://dl.google.com/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg",
-                    "https://www.google.com/dl/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg",
-                    "http://dl.google.com/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg",
-                    "http://www.google.com/dl/release2/chrome/ac7yrvzezfu5csfr2vj2txcbhivq_98.0.4758.102/GoogleChrome-98.0.4758.102.dmg"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg",
+                    "https://dl.google.com/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg",
+                    "https://www.google.com/dl/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg",
+                    "http://dl.google.com/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg",
+                    "http://www.google.com/dl/release2/chrome/adqa3l7td7mi6md2dr47meoq5gaq_98.0.4758.109/GoogleChrome-98.0.4758.109.dmg"
                 ],
-                "Hash": "a4063f852e95f963a188a00917cddd6c4772834c7b2351b2da4f1d245640d1f8",
+                "Hash": "f2712c6dcf385697b54b907d5b3fa15537322bb24f350d77133499b9f762ee63",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "185626188"
+                "SizeInBytes": "185619975"
             }
         ]
     },
     {
         "Product": "canary",
-        "CheckTime": "2022-02-22 11:20:38",
+        "CheckTime": "2022-02-22 23:24:16",
         "Release": [
             {
                 "Architecture": "win-x86",
