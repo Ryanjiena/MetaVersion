@@ -1,9 +1,9 @@
 {
-    "checkTime": "2022-02-21 11:20:17",
-    "version": "2.3.9",
-    "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/2.3.9/update/win32/ia32/aDrive-2.3.9.exe",
-    "base64": "3T7yb9pOEu54mNykpEaga3nj0gYQvGAbzSHgu0611eXJJu0SxeZmj072H9GmGYtyBoibAyUAXTSHs6dj7nqsEQ==",
-    "sha512": "dd3ef26fda4e12ee7898dca4a446a06b79e3d20610bc601bcd21e0bb4eb5d5e5c926ed12c5e6668f4ef61fd1a6198b7206889b0325005d3487b3a763ee7aac11",
-    "size": "73276144",
-    "releaseDate": "2022-02-17T13:36:54.979Z"
+    "checkTime": "2022-03-10 11:21:04",
+    "version": "2.4.0",
+    "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/2.4.0/update/win32/ia32/aDrive-2.4.0.exe",
+    "base64": "cS7jlnf288kChtEjRkYlrQ0GZti1gZ3XR2RbaUV1uVhEKqtMDV3kd9/Je93S3tP9u2LuPu/kQdZ4Ao6VMSgBwA==",
+    "sha512": "712ee39677f6f3c90286d123464625ad0d0666d8b5819dd747645b694575b958442aab4c0d5de477dfc97bddd2ded3fdbb62ee3eefe441d678028e95312801c0",
+    "size": "74730703",
+    "releaseDate": "2022-03-09T05:36:45.489Z"
 }
