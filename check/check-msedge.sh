@@ -69,27 +69,27 @@ function getGeneratedVersionInfo() {
     mv -f link.json ../now.json
 }
 
-# function compareVersion() {
-#     latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
-#     localVersionArr=($(getLocalVersion))
-#     echo "Latest version:  ${latestVersionArr[*]}"
-#     echo "Local version:  ${localVersionArr[*]}"
+function compareVersion() {
+    latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
+    localVersionArr=($(getLocalVersion))
+    echo "Latest version:  ${latestVersionArr[*]}"
+    echo "Local version:  ${localVersionArr[*]}"
 
-#     # Compare Version
-#     if [[ "${latestVersionArr[0]}" == "${localVersionArr[0]}" ]] && [[ "${latestVersionArr[1]}" == "${localVersionArr[1]}" ]] && [[ "${latestVersionArr[2]}" == "${localVersionArr[2]}" ]] && [[ "${latestVersionArr[3]}" == "${localVersionArr[3]}" ]]; then
-#         echo -e "${Green_font_prefix}[Info] MSEdge is the latest version!${Font_color_suffix}"
-#     else
-#         echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
-#         getGeneratedVersionInfo
-#     fi
-# }
+    # Compare Version
+    if [[ "${latestVersionArr[0]}" == "${localVersionArr[0]}" ]] && [[ "${latestVersionArr[1]}" == "${localVersionArr[1]}" ]] && [[ "${latestVersionArr[2]}" == "${localVersionArr[2]}" ]] && [[ "${latestVersionArr[3]}" == "${localVersionArr[3]}" ]]; then
+        echo -e "${Green_font_prefix}[Info] MSEdge is the latest version!${Font_color_suffix}"
+    else
+        echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
+        getGeneratedVersionInfo
+    fi
+}
 
-# # sudo apt install curl jq xxd -y
-# compareVersion
+# sudo apt install curl jq xxd -y
+compareVersion
 
-latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
-localVersionArr=($(getLocalVersion))
-echo "Latest version:  ${latestVersionArr[*]}"
-echo "Local version:  ${localVersionArr[*]}"
-echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
-getGeneratedVersionInfo
+# latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
+# localVersionArr=($(getLocalVersion))
+# echo "Latest version:  ${latestVersionArr[*]}"
+# echo "Local version:  ${localVersionArr[*]}"
+# echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
+# getGeneratedVersionInfo
