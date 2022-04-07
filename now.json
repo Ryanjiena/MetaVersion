@@ -2,51 +2,51 @@
     "redirects": [
         {
             "source": "/msedge-stable-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a3ddddae-094b-4929-99e9-717c841c8bee?P1=1649867965&P2=404&P3=2&P4=eW97mbg4ClLXJVU1RrePTLJFh0UJNolwyf%2b6ZAtZESOXIujlA%2bB8Lodgx%2fMKjrkohwoSS0utJCJ5rEZc4%2br8PA%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/a3ddddae-094b-4929-99e9-717c841c8bee?P1=1649954358&P2=404&P3=2&P4=ddNOZyrRvge8ZFaa%2fHIb2EsaSnb59k6Vi%2b8DU61i73M5GHjUXrO%2f5OY88t9sQ3sYJIOM%2fGvBUOHFzvmGOmValA%3d%3d"
         },
         {
             "source": "/msedge-stable-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/893a16be-4920-4d54-aefd-235767a3a711?P1=1649867959&P2=404&P3=2&P4=CilkHXeDGHd2WUKk9Ab%2fk5YPLfZGkFiwNqacGpZGJuaiYkACaYXis7ZgqL7Ya%2f91Eg6Obi9LwxjCdz1TNwbc9A%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/893a16be-4920-4d54-aefd-235767a3a711?P1=1649954351&P2=404&P3=2&P4=OsL037EP9wAbzIqJYSDtfb%2bKG4Rn589ANzAR9V%2bBfystXhYjp%2ffLQa2%2f1fV%2bG78Gk9YUWK21syuj%2blx%2fmFGOqA%3d%3d"
         },
         {
             "source": "/msedge-stable-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3117bfdb-2a16-44b7-a01c-5588c7cd0e43?P1=1649867952&P2=404&P3=2&P4=ep5Fbp8CllGi2znpumbCBGyD16w870Fr%2fVGx9s%2bD3eNV4jKYFW%2fYhl0JgK2ArwKED648CF66ZxDVHnm02B5GyA%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3117bfdb-2a16-44b7-a01c-5588c7cd0e43?P1=1649954345&P2=404&P3=2&P4=CuLWt2o%2ft7f6Ww8dTanTyvaRW9J2SDcr2btTeYj%2bCniuFqRBJQD0YOrxRZdlmSlrOjnQG3bm6XUfHfvWeT4gxw%3d%3d"
         },
         {
             "source": "/msedge-beta-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f744510a-38c3-44de-8a5a-97430280f177?P1=1649867985&P2=404&P3=2&P4=MsGPjE5nNeoO3FCcWUrA3NFTS9QKKy8IGNBYCT5VHBRtRMmsIUZlMwG7awLbjCGukAsqJk%2bwIPXQC5772uhNWA%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f744510a-38c3-44de-8a5a-97430280f177?P1=1649954377&P2=404&P3=2&P4=ZOIptkby3%2breSwS1qVOTZPcQLfXUH0crEM6zGmkCktQAxSBEU1aip8%2bCBxfQnAvaKzAtHcdUSQDk1UzlbUK%2bUA%3d%3d"
         },
         {
             "source": "/msedge-beta-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/7d1072a0-2f53-47d1-a661-e3961c76131f?P1=1649867978&P2=404&P3=2&P4=JOfNwGY1zHjX%2bTFs0unKuoOXljx6Lqb6OJ7BKPPipoWS0sM%2b67wb9NCwnZzb8D5oXKU8TtKlppkamJ1dnRGM4w%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/7d1072a0-2f53-47d1-a661-e3961c76131f?P1=1649954370&P2=404&P3=2&P4=fGGYuw9gZ0r9L4F2lP4aeCye6YpKcw3m9FSBsdYIdVeS0XJwAap4SJXFgIpX1QlkXz00PiIFszwY3MOQG4AYlg%3d%3d"
         },
         {
             "source": "/msedge-beta-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/865fee9a-93d2-43f4-b560-399c4d1ef3ea?P1=1649867972&P2=404&P3=2&P4=fS%2b6PrTw7x5WUU9QFYP3%2b6y8R3xDHC8bYnal7KH3uGBJTBqVVWQYaCeKO0pLqARw2jQuT5o9%2fnsKF8YSdbgnnw%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/865fee9a-93d2-43f4-b560-399c4d1ef3ea?P1=1649954364&P2=404&P3=2&P4=A6eNyOVR9vThjJElIE5I9KX41%2f1tYudhQpeC%2fcj%2fqj7ZKp6kOS0rxE3IzkxRTmGklOGiqKNmBE4%2fAyas2VXmOg%3d%3d"
         },
         {
             "source": "/msedge-dev-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/fd579892-704f-4c4e-91ac-b63449d82595?P1=1649868004&P2=404&P3=2&P4=QnaGmiUEmMojpq%2fBNoOAil4vmbczVBw%2bAZsNM8rrWWUqsZpFXXjHUHzUMFkNMsRiNBpKLeNI1hs2ZFcqrVVU3A%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/fd579892-704f-4c4e-91ac-b63449d82595?P1=1649954396&P2=404&P3=2&P4=gc7NTsPT7FDubaQ6mlBx0gUe3BZxSLxucqeT20anbhEms8Y4LnCEogBHC7pMBN0x3JCnWuUpyERMBQjJsvF6kw%3d%3d"
         },
         {
             "source": "/msedge-dev-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1a933c87-7ca2-4642-9b5e-af134ff658c4?P1=1649867998&P2=404&P3=2&P4=dPaJxMkUdo7wuEOekIfD31h1%2fkYRc%2feOvrxtjnXuE%2foZO2SiVbzunfiZnDC53Vlo2VwzdSWD9FNgO451Bednkg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1a933c87-7ca2-4642-9b5e-af134ff658c4?P1=1649954390&P2=404&P3=2&P4=d4iaOtB4IWQEDLZk%2fIoLIwSHdomLfGSNRHba%2f9CvUHDUOZf68lUgrDCwfHwkcdFrkqMqNeCYSAp65UrEZaegDg%3d%3d"
         },
         {
             "source": "/msedge-dev-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/5cad2c53-729d-4d49-b5c7-1cecf0a12dea?P1=1649867991&P2=404&P3=2&P4=J5aLQnkuHe3OvCRY%2bZQw8vXkSgI0luyzaZ5eVYmioWuOxc4ZZgnRWnAOAIPkvM6w0kWLrZT0CN19O3kVeqUSNg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/5cad2c53-729d-4d49-b5c7-1cecf0a12dea?P1=1649954383&P2=404&P3=2&P4=N959mZcXuLxyKwq0yjjF0RAmCiwv4CzeIGqZKs2hv7RMCWKYvUJtGwlSPjsnoRTctpcD0v5OysjxSkjEGOhApA%3d%3d"
         },
         {
             "source": "/msedge-canary-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/08a36dab-f8e9-4c8e-9d64-d66207f6bc5d?P1=1649868024&P2=404&P3=2&P4=CyThZGzB%2bGYD%2fi3RyEFXo3sNDfPDCKdsJhRNHd%2bCqdSI1Lt34KibQ%2fl72QP4QJUyKp5uXgSuIrvwo3w3FJ%2bwpQ%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/fab3efb3-d2a1-430b-8f8a-142227fdebb4?P1=1649954416&P2=404&P3=2&P4=QZ0m5PiLpxhjo0mnC0FK%2fFvbR2%2b97ymGZTr4eRzuf3fIRGX4QXD2PxwhRydYE0StPM4ficyY2kAa2Pe%2b79IwIw%3d%3d"
         },
         {
             "source": "/msedge-canary-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/454b6d38-e9aa-4840-ab7a-b9c9b230b790?P1=1649868017&P2=404&P3=2&P4=db9qtf0qo6mYtHQV9Gx6ceP0NOudtgDdBjeOENDrLp9poRJ3bGkUUrytZZLIbnNIx9uLTx%2f1QEhnXCRHUT9kXg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4b6086b2-a4cf-4081-9e9b-525ff4ecbca0?P1=1649954409&P2=404&P3=2&P4=BNa9gL9VbF4mfKfYexEhEFPs9OyS3IR8W7H2Fl5MewbQZXnN5uBVEFgwMtsImSdBLS945l%2ffeluddYySyzY9Dw%3d%3d"
         },
         {
             "source": "/msedge-canary-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/de5d7b4b-102e-4fc8-bcd4-968260baef52?P1=1649868011&P2=404&P3=2&P4=QAUTppk9%2b5LloVO8yrMwAVLHT9v6HvUyUkZteyMXi2i5F7vtP%2bEPHP5SK%2bXohSPONDHjLDNNwtbpCOiwyR5CpQ%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/50dc9b35-ad80-479c-98de-26c6bcf4b5f3?P1=1649954403&P2=404&P3=2&P4=dyLcnQZRBFk3YVtTWPl1RI2sLd%2bZUChkmZSoB7JieJlOd%2b5zA53AvG5KanPTLg6OoX1Jyxm7eul9pJn6%2bkfb4Q%3d%3d"
         },
         {
             "source": "/msedge",
