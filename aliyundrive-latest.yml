@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error>
-  <Code>NoSuchKey</Code>
-  <Message>The specified key does not exist.</Message>
-  <RequestId>624DC1E5FF9A92B3BB1A16CF</RequestId>
-  <HostId>g-assets-siliconvalley.oss-accelerate.aliyuncs.com</HostId>
-  <Key>g/aliyun-drive-fe/aliyun-drive-desktop-version/win32/ia32/latest.yml</Key>
-</Error>
+version: 3.2.0
+files:
+  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/3.2.0/update/win32/ia32/aDrive-3.2.0.exe
+    sha512: VAufSEQ/WojOe/UQTc5NNHV5j3vZ1U8DTmvxpoK+OFb19+5cJ/yajOudVIr2JMJnFzzu2mokUxIlHC8/V2tJnw==
+    size: 96142653
+path: aDrive-3.2.0.exe
+sha512: VAufSEQ/WojOe/UQTc5NNHV5j3vZ1U8DTmvxpoK+OFb19+5cJ/yajOudVIr2JMJnFzzu2mokUxIlHC8/V2tJnw==
+releaseDate: 2022-04-12T13:29:50.128Z
