@@ -1,8 +1,8 @@
-version: 3.2.0
+version: 3.2.1
 files:
-  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/3.2.0/update/win32/ia32/aDrive-3.2.0.exe
-    sha512: VAufSEQ/WojOe/UQTc5NNHV5j3vZ1U8DTmvxpoK+OFb19+5cJ/yajOudVIr2JMJnFzzu2mokUxIlHC8/V2tJnw==
-    size: 96142653
-path: aDrive-3.2.0.exe
-sha512: VAufSEQ/WojOe/UQTc5NNHV5j3vZ1U8DTmvxpoK+OFb19+5cJ/yajOudVIr2JMJnFzzu2mokUxIlHC8/V2tJnw==
-releaseDate: 2022-04-12T13:29:50.128Z
+  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/3.2.1/update/win32/ia32/aDrive-3.2.1.exe
+    sha512: 4YtKwCg5FdlPQkZQXjIVNrdqpr4WZYuXxsLqB3jFKpUcYSveYQsTeGIBSrrhH9N77EZIP9rzxxOUulmILGjkYQ==
+    size: 96145823
+path: aDrive-3.2.1.exe
+sha512: 4YtKwCg5FdlPQkZQXjIVNrdqpr4WZYuXxsLqB3jFKpUcYSveYQsTeGIBSrrhH9N77EZIP9rzxxOUulmILGjkYQ==
+releaseDate: 2022-04-18T11:00:35.010Z
