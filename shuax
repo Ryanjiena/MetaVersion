@@ -1,29 +1,4 @@
-{
-    "check": "2022-04-23 11:06:30",
-    "chrome_plus": {
-        "version": "20220412.015438",
-        "file":[
-            {
-                "filename": "chrome_plus-x64-v20220412.015438.zip",
-                "hash": "ce4eec811b202b589721aeed75e71f566b977158454e308ddbb51e2686d6b2dd"
-            },
-            {
-                "filename": "chrome_plus-x86-v20220412.015438.zip",
-                "hash": "1db4d7980d947638f1aef78f573432cbe0a8a260e0016c1bb5142fa9c129ed0a"
-            }
-        ]
-    },
-    "edge_plus": {
-        "version": "20220412.015546",
-        "file": [
-            {
-                "filename": "edge_plus-x64-v20220412.015546.zip",
-                "hash": "076f74fe4f5c1b1db18c79c0641a74e9242b8e1d10368a76ab1069e0c1dbbef6"
-            },
-            {
-                "filename": "edge_plus-x86-v20220412.015546.zip",
-                "hash": "fa184c8c61402a6573fe13276d6c65bb137796b6008bf7b4217887f35917703c"
-            }
-        ]
-    }
-}
+ce4eec811b202b589721aeed75e71f566b977158454e308ddbb51e2686d6b2dd chrome_plus-x64-v20220412.015438.zip
+1db4d7980d947638f1aef78f573432cbe0a8a260e0016c1bb5142fa9c129ed0a chrome_plus-x86-v20220412.015438.zip
+076f74fe4f5c1b1db18c79c0641a74e9242b8e1d10368a76ab1069e0c1dbbef6 edge_plus-x64-v20220412.015546.zip
+fa184c8c61402a6573fe13276d6c65bb137796b6008bf7b4217887f35917703c edge_plus-x86-v20220412.015546.zip
