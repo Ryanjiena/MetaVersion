@@ -16,7 +16,7 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-for item in "aliyundrive" "chrome" "mouseinc" "msedge" "office-iso" "shuax"; do
+for item in "aliyundrive" "chrome" "mouseinc" "msedge" "office-iso" "shuax-new"; do
     cd ${check_dir}
     echo -e "${Green_font_prefix}[Info] Check ${item}...${Font_color_suffix}"
     bash check-$item.sh
