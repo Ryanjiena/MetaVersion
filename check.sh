@@ -16,8 +16,16 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-for item in "aliyundrive" "chrome" "mouseinc" "msedge" "office-iso"; do
+for item in "aliyundrive" "chrome" "mouseinc" "msedge" "office-iso" "shuax"; do
     cd ${check_dir}
     echo -e "Check ${item}..."
     bash check-$item.sh
+done
+
+# oneindex
+userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+for item in "52pj" "directX_repair" "djcl" "gh" "idm" "jdk" "lrepacks" "patch" "potplayer" "qiuquan" "runningcheese" "tencent" "typora" "vcredist" "wenlei" "zd423"; do
+    cd ${check_dir}
+    echo -e "Check ${item}..."
+    wget --user-agent="${userAgent}" --no-check-certificate -O "${item}" "https://pan.jiemi.workers.dev/?file=/scoop/${item}/sha256sum"
 done

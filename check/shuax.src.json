@@ -1,0 +1,29 @@
+{
+    "check": "Check-Time",
+    "chrome_plus": {
+        "version": "chrome_plus-Version",
+        "file":[
+            {
+                "filename": "chrome_plus-x64-Filename",
+                "hash": "chrome_plus-x64-Hash"
+            },
+            {
+                "filename": "chrome_plus-x86-Filename",
+                "hash": "chrome_plus-x86-Hash"
+            }
+        ]
+    },
+    "edge_plus": {
+        "version": "edge_plus-Version",
+        "file": [
+            {
+                "filename": "edge_plus-x64-Filename",
+                "hash": "edge_plus-x64-Hash"
+            },
+            {
+                "filename": "edge_plus-x86-Filename",
+                "hash": "edge_plus-x86-Hash"
+            }
+        ]
+    }
+}
