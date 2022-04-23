@@ -31,8 +31,8 @@ else
     for bit in "x64" "x86"; do
         filename1="chrome_plus-${bit}-v${chrome_plus_remote_ver}.zip"
         filename2="edge_plus-${bit}-v${edge_plus_remote_ver}.zip"
-        wget --user-agent="${userAgent}" "https://nightly.link/shuax/chrome_plus/workflows/build/main/windows_${bit}.zip" -O "${filename1}"
-        wget --user-agent="${userAgent}" "https://nightly.link/shuax/edge_plus/workflows/build/main/windows_${bit}.zip" -O "${filename2}"
+        wget --user-agent="${userAgent}" --quiet "https://nightly.link/shuax/chrome_plus/workflows/build/main/windows_${bit}.zip" -O "${filename1}"
+        wget --user-agent="${userAgent}" --quiet "https://nightly.link/shuax/edge_plus/workflows/build/main/windows_${bit}.zip" -O "${filename2}"
         sha256sum1="$(sha256sum "${filename1}" | awk '{print $1}')"
         sha256sum2="$(sha256sum "${filename2}" | awk '{print $1}')"
 
@@ -49,14 +49,14 @@ else
 
     # upload to onedrive
     mkdir shuax && mv chrome_plus* edge_plus* shuax/
-    cd shuax/ && wget --user-agent="${userAgent}" --no-check-certificate -O "sha256sum" "https://pan.jiemi.workers.dev/?file=/scoop/shuax/sha256sum"
+    cd shuax/ && wget --user-agent="${userAgent}" --no-check-certificate --quiet -O "sha256sum" "https://pan.jiemi.workers.dev/?file=/scoop/shuax/sha256sum"
     sha256sum chrome_plus* edge_plus* >> sha256sum
     awk ' { t = $1; $1 = $2; $2 = t; print; } ' sha256sum | sort -f | awk ' { t = $1; $1 = $2; $2 = t; print; } ' > sha256sum1
     mv sha256sum1 sha256sum -f && cd ..
-    wget --user-agent="${userAgent}" --no-check-certificate "https://github.com/gaowanliang/LightUploader/releases/download/v2.0.2-fix/LightUploader_Linux_x86_64.tar.gz"
-    tar -xzvf LightUploader_Linux_x86_64.tar.gz && sudo chmod +x ./LightUploader
+    wget --user-agent="${userAgent}" --no-check-certificate --quiet "https://github.com/gaowanliang/LightUploader/releases/download/v2.0.2-fix/LightUploader_Linux_x86_64.tar.gz"
+    tar -xzf LightUploader_Linux_x86_64.tar.gz && sudo chmod +x ./LightUploader
     echo ${CONFIG} >config.json
-    ./LightUploader -c config.json -f shuax -r "public/scoop/" -t 6 -b 20
+    ./LightUploader -c config.json -f shuax -r "public/scoop/" -t 6 -b 20 > ${tmpFile}
 
     mv -f shuax.json ../shuax
     rm -rf shuax/ LICENSE LightUploader LightUploader_Linux_x86_64.tar.gz config.json en.toml
