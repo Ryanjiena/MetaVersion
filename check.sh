@@ -26,7 +26,6 @@ done
 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 cd ${cur_dir}
 for item in "52pj" "directX_repair" "djcl" "gh" "idm" "jdk" "lrepacks" "patch" "potplayer" "qiuquan" "runningcheese" "sogou" "tencent" "typora" "vcredist" "wenlei" "zd423"; do
-    cd ${check_dir}
     echo -e "${Green_font_prefix}[Info] Check ${item}...${Font_color_suffix}"
     wget --user-agent="${userAgent}" --no-check-certificate --quiet -O "${item}" "https://pan.jiemi.workers.dev/?file=/scoop/${item}/sha256sum"
 done
