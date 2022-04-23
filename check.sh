@@ -24,7 +24,8 @@ done
 
 # oneindex
 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
-for item in "52pj" "directX_repair" "djcl" "gh" "idm" "jdk" "lrepacks" "patch" "potplayer" "qiuquan" "runningcheese" "tencent" "typora" "vcredist" "wenlei" "zd423"; do
+cd ${cur_dir}
+for item in "52pj" "directX_repair" "djcl" "gh" "idm" "jdk" "lrepacks" "patch" "potplayer" "qiuquan" "runningcheese" "sogou" "tencent" "typora" "vcredist" "wenlei" "zd423"; do
     cd ${check_dir}
     echo -e "Check ${item}..."
     wget --user-agent="${userAgent}" --no-check-certificate -O "${item}" "https://pan.jiemi.workers.dev/?file=/scoop/${item}/sha256sum"
