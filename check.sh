@@ -19,7 +19,8 @@ Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 for item in "aliyundrive" "chrome" "mouseinc" "msedge" "office-iso" "shuax-new"; do
     cd ${check_dir}
     echo -e "${Green_font_prefix}[Info] Check ${item}...${Font_color_suffix}"
-    bash check-$item.sh
+    sed -i 's/\r$//' check-${item}.sh
+    bash check-${item}.sh
 done
 
 # oneindex
