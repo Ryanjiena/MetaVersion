@@ -1,4 +1,4 @@
-## scoop-apps
+## MetaVersion
 
 - msedge
   - version: `/msedge`
