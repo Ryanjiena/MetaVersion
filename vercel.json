@@ -53,175 +53,175 @@
         },
         {
             "source": "/msedge",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge"
         },
         {
             "source": "/MouseInc",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/mouseinc"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/mouseinc"
         },
         {
             "source": "/52pj",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/52pj"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/52pj"
         },
         {
             "source": "/acmekit",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/acmekit"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/acmekit"
         },
         {
             "source": "/aliyundrive",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/aliyundrive"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/aliyundrive"
         },
         {
             "source": "/aliyundrive-latest.yml",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/aliyundrive-latest.yml"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/aliyundrive-latest.yml"
         },
         {
             "source": "/bandicam",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/bandicam"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bandicam"
         },
         {
             "source": "/bandizip",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/bandizip"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bandizip"
         },
         {
             "source": "/bcompare",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/bcompare"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bcompare"
         },
         {
             "source": "/ccleaner",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/ccleaner"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/ccleaner"
         },
         {
             "source": "/chrome",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome"
         },
         {
             "source": "/clash",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/clash"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/clash"
         },
         {
             "source": "/directX_repair",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/directX_repair"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/directX_repair"
         },
         {
             "source": "/djcl",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/djcl"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/djcl"
         },
         {
             "source": "/gh",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/gh"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/gh"
         },
         {
             "source": "/gif",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/gif"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/gif"
         },
         {
             "source": "/idm",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/idm"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/idm"
         },
         {
             "source": "/iyoung",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/iyoung"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/iyoung"
         },
         {
             "source": "/jdk",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/jdk"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/jdk"
         },
         {
             "source": "/LICENSE",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/LICENSE"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/LICENSE"
         },
         {
             "source": "/lrepacks",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/lrepacks"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/lrepacks"
         },
         {
             "source": "/mouseinc",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/mouseinc"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/mouseinc"
         },
         {
             "source": "/msedge",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge"
         },
         {
             "source": "/music",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/music"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/music"
         },
         {
             "source": "/ocr",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/ocr"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/ocr"
         },
         {
             "source": "/office-iso",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/office-iso"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/office-iso"
         },
         {
             "source": "/patch",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/patch"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/patch"
         },
         {
             "source": "/potplayer",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/potplayer"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/potplayer"
         },
         {
             "source": "/qiuquan",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/qiuquan"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/qiuquan"
         },
         {
             "source": "/qq",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/qq"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/qq"
         },
         {
             "source": "/README.md",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/README.md"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/README.md"
         },
         {
             "source": "/runningcheese",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/runningcheese"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/runningcheese"
         },
         {
             "source": "/shuax",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/shuax"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/shuax"
         },
         {
             "source": "/sogou",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/sogou"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/sogou"
         },
         {
             "source": "/tencent",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/tencent"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/tencent"
         },
         {
             "source": "/tools",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/tools"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/tools"
         },
         {
             "source": "/typeeasy",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/typeeasy"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/typeeasy"
         },
         {
             "source": "/typora",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/typora"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/typora"
         },
         {
             "source": "/vcredist",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/vcredist"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/vcredist"
         },
         {
             "source": "/wenlei",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/wenlei"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/wenlei"
         },
         {
             "source": "/xshell",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/xshell"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/xshell"
         },
         {
             "source": "/zd423",
-            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/zd423"
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/zd423"
         },
         {
             "source": "/(.*)",
-            "destination": "https://github.com/Ryanjiena/scoop-apps"
+            "destination": "https://github.com/Ryanjiena/MetaVersion"
         }
     ]
 }

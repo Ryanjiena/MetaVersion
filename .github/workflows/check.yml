@@ -2,29 +2,32 @@ name: Check
 
 on:
   schedule:
-    - cron: "5 11,23 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+env:
+  TZ: Asia/Shanghai
+  CONFIG: ${{ secrets.CONFIG }}
 
+jobs:
+  checkver:
+    name: CheckVer
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: version
+      - uses: actions/checkout@v3
+      - name: Update package manager database
+        run: sudo apt-get update
       - name: Install Dependence
-        run: sudo apt install curl jq xxd libxml2-utils -y
-      - name: Check
-        run: bash check.sh
-      - name: Commit
+        run: sudo apt-get install curl wget jq xxd libxml2-utils
+      - name: Git config
         run: |
-          git config --local user.email "78083448+JaimeZeng@users.noreply.github.com"
-          git config --local user.name "JaimeZeng"
-          git add .
-          git commit -m "update" -a
+          git config --local user.email "43134606+Ryanjiena@users.noreply.github.com"
+          git config --local user.name "Ryanjiena"
+      - name: Check
+        run: sed -i 's/\r$//' check.sh && bash check.sh
+      - name: Commit
+        run: git commit -am "check"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: version
           github_token: ${{ secrets.GH_TOKEN }}
