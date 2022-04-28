@@ -1,4 +1,7 @@
 {
+    "github": {
+        "silent": true
+    },
     "redirects": [
         {
             "source": "/msedge-stable-win-ARM64",
@@ -55,7 +58,8 @@
         {
             "source": "/MouseInc",
             "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/mouseinc"
-        },{
+        },
+        {
             "source": "/52pj",
             "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/52pj"
         },
