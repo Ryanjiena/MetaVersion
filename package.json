@@ -11,7 +11,7 @@
     ],
     "license": "Mit",
     "dependencies": {
-        "now": "^18.0.0"
+        "now": "18.0.0"
     },
     "scripts": {
         "deploy": "now",
