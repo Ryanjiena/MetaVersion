@@ -220,6 +220,10 @@
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/zd423"
         },
         {
+            "source": "/jpochyla/psst",
+            "destination": "https://api.github.com/repos/jpochyla/psst/actions/runs/2162200944/artifacts"
+        },
+        {
             "source": "/(.*)",
             "destination": "https://github.com/Ryanjiena/MetaVersion"
         }
