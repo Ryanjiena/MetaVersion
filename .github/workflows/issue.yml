@@ -37,7 +37,6 @@ jobs:
         run: |
           cd check
           sed -i 's/\r$//' check-program.sh
-          pip install -r requirements.txt
           bash check-program.sh
       - name: Commit
         run: git commit -S -am "check program"

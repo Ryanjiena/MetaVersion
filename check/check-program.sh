@@ -18,6 +18,8 @@ regexArr=($(cat ../program | jq -r '.[] | .regex'))
 urlArr=($(cat ../program | jq -r '.[] | .url'))
 verArr=($(cat ../program | jq -r '.[] | .version'))
 
+pip install -r requirements.txt
+
 for ((i = 0; i < ${#nameArr[@]}; i++)); do
     echo -e "${Info} Check ${nameArr[i]} ..."
     if [[ \"${urlArr[i]}\" =~ \".*lanzout.com.*\" ]]; then
@@ -26,9 +28,9 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
             # pwd=$(echo "${urlArr[i]}" | sed 's/.*#//')
             url=$(echo "${urlArr[i]}" | awk -F '#' '{print $1}')
             pwd=$(echo "${urlArr[i]}" | awk -F '#' '{print $2}')
-            result=$(python3 ./lanzoudisk.py --url "${url}" --pwd "${pwd}")
+            result=$(python ./lanzoudisk.py --url "${url}" --pwd "${pwd}")
         else
-            result=$(python3 ./lanzoudisk.py --url "${urlArr[i]}")
+            result=$(python ./lanzoudisk.py --url "${urlArr[i]}")
         fi
     elif [[ \"${urlArr[i]}\" =~ \".*ysepan.*\" ]]; then
         result=$(curl -s 'http://cb.ysepan.com/f_ht/ajcx/wj.aspx?cz=dq&jsq=0&mlbh=1931898&wjpx=1&_dlmc=iyoung&_dlmm=' -H 'Accept: */*' -H 'Accept-Language: zh-CN,zh;q=0.9' -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' -H 'Cookie: __yjs_duid=1_0f44ae36cbba42cacae2690ef19763e41648221396050; ASP.NET_SessionId=d4srotp24czv3eltf0rmfx3d' -H 'Referer: http://cb.ysepan.com/f_ht/ajcx/000ht.html?bbh=1163' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.4987.0 Safari/537.36' --compressed --insecure)

@@ -22,7 +22,7 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     echo -e "${Info} Check ${nameArr[i]} ..."
     # source_name="/${nameArr[i]}"
     # artifacts_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | grep -o '"artifacts_url": ".*"' | head -n 1 | sed 's/"//g;s/-//g;s/artifacts_url: //g')"
-    # artifacts_old_url="$(cat ../vercel.json | jq -r ".rewrites[] | select(.source == \"${source_name}\") | .destination")"
+    # artifacts_old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination")"
     # sed -e "s|${artifacts_old_url}|${artifacts_url}|g" -i ../vercel.json
 
     # remote_ver="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | grep -o '"created_at": ".*"' | head -n 1 | sed 's/"//g;s/-//g;s/://g' | sed 's/created_at //g;s/T/./g;s/Z//g')"
@@ -31,6 +31,6 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
 
     workflow_run_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/runs" | jq -r ".workflow_runs | .[] | select(.event == \"push\") | .html_url" | head -1)"
     source_name="/${nameArr[i]}"
-    workflow_run_old_url="$(cat ../vercel.json | jq -r ".rewrites[] | select(.source == \"${source_name}\") | .destination")"
+    workflow_run_old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination")"
     sed -e "s|${workflow_run_old_url}|${workflow_run_url}|g" -i ../vercel.json
 done
