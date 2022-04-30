@@ -63,8 +63,8 @@ function getGeneratedVersionInfo() {
             aliyundrive.json
         # do not prompt before overwriting
         mv -f aliyundrive.json ../aliyundrive
-        echo "$info" >aliyundrive-latest.yml
-        mv -f aliyundrive-latest.yml ../aliyundrive-latest.yml
+        # echo "$info" >aliyundrive-latest.yml
+        # mv -f aliyundrive-latest.yml ../aliyundrive-latest.yml
     fi
 }
 

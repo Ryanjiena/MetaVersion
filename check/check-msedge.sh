@@ -60,9 +60,13 @@ function getGeneratedVersionInfo() {
                 -i \
                 msedge.json
 
-            sed -e "s|msedge-${productArr[i]}-win-${arch}-url|${releaseInfoUrl}|g" -i link.json
-            sleep 6
+            # sed -e "s|msedge-${productArr[i]}-win-${arch}-url|${releaseInfoUrl}|g" -i link.json
+            source_name="/msedge-${productArr[i]}-win-${arch}"
+            old_url="$(cat ../vercel.json | jq -r ".rewrites[] | select(.source == \"${source_name}\") | .destination" | sed -e 's/[]&\/$*.^[]/\\&/g')"
+            sed -e "s|${old_url}|${releaseInfoUrl}|g" -i ../vercel.json
+            sleep 2
         done
+        sleep 10
     done
     # do not prompt before overwriting
     mv -f msedge.json ../msedge
@@ -85,11 +89,11 @@ function compareVersion() {
 }
 
 # sudo apt install curl jq xxd -y
-compareVersion
+# compareVersion
 
-# latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
-# localVersionArr=($(getLocalVersion))
-# echo "Latest version:  ${latestVersionArr[*]}"
-# echo "Local version:  ${localVersionArr[*]}"
-# echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
-# getGeneratedVersionInfo
+latestVersionArr=($(getLatestVersion ".stable" ".beta" ".dev" ".canary"))
+localVersionArr=($(getLocalVersion))
+echo "Latest version:  ${latestVersionArr[*]}"
+echo "Local version:  ${localVersionArr[*]}"
+echo -e "${Green_font_prefix}[Info] Update MSEdge!${Font_color_suffix}"
+getGeneratedVersionInfo

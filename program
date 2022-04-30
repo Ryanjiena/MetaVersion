@@ -1,0 +1,44 @@
+{
+    "sogouinput_xingkbjm": {
+        "name": "搜狗拼音输入法星空不寂寞精简版",
+        "regex": "搜狗拼音输入法_v",
+        "url": "https://wenlei.lanzout.com/b04a4gpej",
+        "version": "11.8.0.5496"
+    },
+    "sogouwbinput_xingkbjm": {
+        "name": "搜狗五笔输入法星空不寂寞去广告版",
+        "regex": "搜狗五笔输入法_v",
+        "url": "https://wenlei.lanzout.com/b04autbhc",
+        "version": "5.4.0.2538"
+    },
+    "internet_download_manager": {
+        "name": "Internet_Download_Manager",
+        "regex": "IDM_v",
+        "url": "https://wenlei.lanzout.com/b0i6zkze",
+        "version": "6.40.10"
+    },
+    "vcredist_mix": {
+        "name": "微软常用运行库合集",
+        "regex": "微软常用运行库合集_",
+        "url": "https://wenlei.lanzout.com/b04ascy6f",
+        "version": "2022.03.07"
+    },
+    "potplayer": {
+        "name": "PotPlayer",
+        "regex": "Pot_Player64_v",
+        "url": "https://wenlei.lanzout.com/b0i38vsd",
+        "version": "220420"
+    },
+    "modernw10": {
+        "name": "ModernW10",
+        "regex": "ModernW10_v",
+        "url": "https://wenlei.lanzout.com/b0i38vsd",
+        "version": "3.7"
+    },
+    "totalcommander_chs": {
+        "name": "Total_Commander_中文增强版",
+        "regex": "定制版本：",
+        "url": "http://iyoung.ysepan.com",
+        "version": "7.0a"
+    }
+}

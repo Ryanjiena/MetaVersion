@@ -1,0 +1,41 @@
+name: Version Issue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 16 * * *"
+
+env:
+  TZ: Asia/Shanghai
+  AuthToken: ${{ secrets.AuthToken }}
+
+jobs:
+  version:
+    name: Version Issue
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update package manager database
+        run: sudo apt-get update
+      - name: Install Dependence
+        run: sudo apt-get install curl wget jq gh
+      - name: Git config
+        run: |
+          git config --local user.email "43134606+Ryanjiena@users.noreply.github.com"
+          git config --local user.name "Ryanjiena"
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
+          architecture: "x64"
+      - name: Check
+        run: |
+          cd check
+          sed -i 's/\r$//' check-program.sh
+          pip install -r requirements.txt
+          bash check-program.sh
+      - name: Commit
+        run: git commit -am "check program"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
