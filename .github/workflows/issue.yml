@@ -19,6 +19,12 @@ jobs:
         run: sudo apt-get update
       - name: Install Dependence
         run: sudo apt-get install curl wget jq gh
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
       - name: Git config
         run: |
           git config --local user.email "43134606+Ryanjiena@users.noreply.github.com"
@@ -34,7 +40,7 @@ jobs:
           pip install -r requirements.txt
           bash check-program.sh
       - name: Commit
-        run: git commit -am "check program"
+        run: git commit -S -am "check program"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
