@@ -1,4 +1,4 @@
-## MetaVersion
+## MetaVersion [![Check](https://github.com/Ryanjiena/MetaVersion/actions/workflows/check.yml/badge.svg)](https://github.com/Ryanjiena/MetaVersion/actions/workflows/check.yml) [![Visitors](https://komarev.com/ghpvc/?username=ryanjiena&color=brightgreen&style=flat&label=Visitors)](https://github.com/Ryanjiena/Ryanjiena)
 
 - msedge
   - version: `/msedge`

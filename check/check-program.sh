@@ -53,7 +53,7 @@ if [ -s "IBody" ]; then
     gh issue create --title "Program update! ${DATE}" --body-file IBody --label program-update --assignee "@me"
 
     # gh logout
-    echo "Y" | gh auth logout
+    echo "Y" | gh auth logout --hostname github.com
 
     # clean
     rm -f IBody
