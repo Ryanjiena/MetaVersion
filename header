@@ -1,0 +1,17 @@
+[
+    {
+        "name": "wxwork",
+        "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex",
+        "redirect": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.6.6516.exe"
+    },
+    {
+        "name": "i4tool",
+        "url": "https://url.i4.cn/faIfqyaa",
+        "redirect": "https://d-ali4tool.i4.cn/i4tools/V7/v7.98/53/i4Tools_v7.98.53_Setup.exe"
+    },
+    {
+        "name": "cloudmusic",
+        "url": "https://music.163.com/api/pc/package/download/latest",
+        "redirect": "https://d1.music.126.net/dmusic/cloudmusicsetup2.9.8.199759.exe"
+    }
+]
