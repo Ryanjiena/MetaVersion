@@ -24,7 +24,6 @@ if __name__ == '__main__':
         :param dir_pwd: password, Optional. Default is ''.
         :return: folder info
         """
-        lzy = LanZouCloud()
         folder_info = lzy.get_folder_info_by_url(share_url, dir_pwd)
 
         for file in folder_info.files:
