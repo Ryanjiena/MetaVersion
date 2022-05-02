@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-set -euxo pipefail
+# set -euxo pipefail
 
 DATE="$(echo $(TZ=UTC date '+%Y-%m-%d %H:%M:%S'))"
 USER="$(whoami)"
@@ -43,6 +43,8 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     else
         echo "${Info} ${nameArr[i]} is latest version!"
     fi
+
+    echo -e "\n\n  Updated by: ${USER}, at ${DATE}" >>IBody
 done
 
 if [ -s "IBody" ]; then
@@ -57,4 +59,6 @@ if [ -s "IBody" ]; then
 
     # clean
     rm -f IBody
+else
+    exit 0
 fi
