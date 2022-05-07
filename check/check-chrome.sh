@@ -82,7 +82,7 @@ function getGeneratedInfo() {
             done
         done
     done
-    mv -f chrome.json ../chrome
+    mv -f chrome.json ../chrome.json
 }
 
 # sudo apt install curl libxml2-utils -y
