@@ -36,6 +36,8 @@ function getGeneratedVersionInfo() {
 
             releaseInfoFileId=$(echo "$response" | jq -r '.FileId')
             releaseInfoHashes=($(echo "$response" | jq -r '.Hashes.Sha256'))
+            releaseInfoSha256HashesArr=($(echo "$releaseInfoHashes" | base64 -d | xxd -p))
+            releaseInfoSha256Hashes=$(echo "${releaseInfoSha256HashesArr[*]}" | sed 's/ //g')
             releaseInfoSizeInBytes=$(echo "$response" | jq -r '.SizeInBytes')
 
             # & is special in the replacement text: it means “the whole part of the input that was matched by the pattern”
@@ -44,11 +46,11 @@ function getGeneratedVersionInfo() {
             releaseInfoUrl=$(echo "$response" | jq -r '.Url' | sed -e 's/[\/&]/\\&/g')
 
             [[ -z "${releaseInfoUrl}" ]] && echo -e "${Error} ${fileName} url: null " && continue 2
-            echo -e "${Green_font_prefix} ${fileName} url: ${releaseInfoUrl}${Font_color_suffix}"
+            echo -e "${Green_font_prefix}${fileName}${Font_color_suffix} -> ${releaseInfoUrl}"
 
             sed -e "s|msedge-product-win-${arch}-filename|${releaseInfoFileId}|g" \
                 -e "s|msedge-product-win-${arch}-url|${releaseInfoUrl}|g" \
-                -e "s|msedge-product-win-${arch}-hash|${releaseInfoHashes}|g" \
+                -e "s|msedge-product-win-${arch}-hash|${releaseInfoSha256Hashes}|g" \
                 -e "s|msedge-product-win-${arch}-size|${releaseInfoSizeInBytes}|g" \
                 -i \
                 msedge-${productArr[i]}.json
