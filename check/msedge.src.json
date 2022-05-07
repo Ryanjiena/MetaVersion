@@ -8,7 +8,6 @@
             "ReleaseName": "msedge-product-win-ARM64-filename",
             "Location": "msedge-product-win-ARM64-url",
             "Hash": "msedge-product-win-ARM64-hash",
-            "Sha256": "msedge-product-win-ARM64-sha256",
             "SizeInBytes": "msedge-product-win-ARM64-size"
         },
         {
@@ -16,7 +15,6 @@
             "ReleaseName": "msedge-product-win-X86-filename",
             "Location": "msedge-product-win-X86-url",
             "Hash": "msedge-product-win-X86-hash",
-            "Sha256": "msedge-product-win-X86-sha256",
             "SizeInBytes": "msedge-product-win-X86-size"
         },
         {
@@ -24,7 +22,6 @@
             "ReleaseName": "msedge-product-win-X64-filename",
             "Location": "msedge-product-win-X64-url",
             "Hash": "msedge-product-win-X64-hash",
-            "Sha256": "msedge-product-win-X64-sha256",
             "SizeInBytes": "msedge-product-win-X64-size"
         }
     ]
