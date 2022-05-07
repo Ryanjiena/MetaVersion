@@ -13,12 +13,11 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-nameArr=($(cat ../header | jq -r '.[] | .name'))
-urlArr=($(cat ../header | jq -r '.[] | .url'))
-redirectArr=($(cat ../header | jq -r '.[] | .redirect'))
+nameArr=($(cat ../header.json | jq -r '.[] | .name'))
+urlArr=($(cat ../header.json | jq -r '.[] | .url'))
+redirectArr=($(cat ../header.json | jq -r '.[] | .redirect'))
 
 for ((i = 0; i < ${#nameArr[@]}; i++)); do
-    echo -e "${Info} Check ${nameArr[i]} ..."
 
     curl -v -k --tls-max 1.2 "${urlArr[i]}" 2>${tmpFile} >/dev/null
     # cat ${tmpFile} && exit 0
@@ -27,14 +26,10 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     # echo ${result} && exit 0
 
     if [[ -n "${redirect_url}" ]]; then
-        if [[ "${redirect_url}" == "${redirectArr[i]}" ]]; then
-            echo -e "${Info} ${nameArr[i]} is the latest version!"
-        else
-            echo -e "${Info} Update ${nameArr[i]}!"
-            sed -e "s|${redirectArr[i]}|${redirect_url}|g" -i ../header
-        fi
+        echo -e "${Green_font_prefix}${nameArr[i]}${Font_color_suffix} -> ${redirect_url}"
+        sed -e "s|${redirectArr[i]}|${redirect_url}|g" -i ../header.json
     else
-        echo -e "${Error} ${nameArr[i]} is not exist!"
+        echo -e "${Error} ${nameArr[i]} is not exist!" && exit 1
     fi
 
     rm -f ${tmpFile}

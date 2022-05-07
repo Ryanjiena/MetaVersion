@@ -13,5 +13,15 @@
         "name": "cloudmusic",
         "url": "https://music.163.com/api/pc/package/download/latest",
         "redirect": "https://d1.music.126.net/dmusic/cloudmusicsetup2.9.8.199759.exe"
+    },
+    {
+        "name": "wemod-stable",
+        "url": "https://api.wemod.com/client/channels/stable/releases/latest",
+        "redirect": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.0.13.exe"
+    },
+    {
+        "name": "wemod-beta",
+        "url": "https://api.wemod.com/client/channels/beta/releases/latest",
+        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.0.13-beta00.exe"
     }
 ]
