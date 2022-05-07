@@ -2,7 +2,7 @@ name: Check
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 env:
@@ -32,7 +32,8 @@ jobs:
       - name: Check
         run: sed -i 's/\r$//' check.sh && bash check.sh
       - name: Commit
-        run: git commit -S -am "check"
+        run: |
+          git commit -S -am "chore: checkver"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
