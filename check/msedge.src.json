@@ -1,126 +1,31 @@
-[
-    {
-        "Product": "stable",
-        "Version": "msedge-stable-win-ver",
-        "CheckTime": "check-time",
-        "Release": [
-            {
-                "Architecture": "arm64",
-                "ReleaseName": "msedge-stable-win-ARM64-filename",
-                "Location": "msedge-stable-win-ARM64-url",
-                "Hash": "msedge-stable-win-ARM64-hash",
-                "Sha256": "msedge-stable-win-ARM64-sha256",
-                "SizeInBytes": "msedge-stable-win-ARM64-size"
-            },
-            {
-                "Architecture": "x86",
-                "ReleaseName": "msedge-stable-win-X86-filename",
-                "Location": "msedge-stable-win-X86-url",
-                "Hash": "msedge-stable-win-X86-hash",
-                "Sha256": "msedge-stable-win-X86-sha256",
-                "SizeInBytes": "msedge-stable-win-X86-size"
-            },
-            {
-                "Architecture": "x64",
-                "ReleaseName": "msedge-stable-win-X64-filename",
-                "Location": "msedge-stable-win-X64-url",
-                "Hash": "msedge-stable-win-X64-hash",
-                "Sha256": "msedge-stable-win-X64-sha256",
-                "SizeInBytes": "msedge-stable-win-X64-size"
-            }
-        ]
-    },
-    {
-        "Product": "beta",
-        "Version": "msedge-beta-win-ver",
-        "CheckTime": "check-time",
-        "Release": [
-            {
-                "Architecture": "arm64",
-                "ReleaseName": "msedge-beta-win-ARM64-filename",
-                "Location": "msedge-beta-win-ARM64-url",
-                "Hash": "msedge-beta-win-ARM64-hash",
-                "Sha256": "msedge-beta-win-ARM64-sha256",
-                "SizeInBytes": "msedge-beta-win-ARM64-size"
-            },
-            {
-                "Architecture": "x86",
-                "ReleaseName": "msedge-beta-win-X86-filename",
-                "Location": "msedge-beta-win-X86-url",
-                "Hash": "msedge-beta-win-X86-hash",
-                "Sha256": "msedge-beta-win-X86-sha256",
-                "SizeInBytes": "msedge-beta-win-X86-size"
-            },
-            {
-                "Architecture": "x64",
-                "ReleaseName": "msedge-beta-win-X64-filename",
-                "Location": "msedge-beta-win-X64-url",
-                "Hash": "msedge-beta-win-X64-hash",
-                "Sha256": "msedge-beta-win-X64-sha256",
-                "SizeInBytes": "msedge-beta-win-X64-size"
-            }
-        ]
-    },
-    {
-        "Product": "dev",
-        "Version": "msedge-dev-win-ver",
-        "CheckTime": "check-time",
-        "Release": [
-            {
-                "Architecture": "arm64",
-                "ReleaseName": "msedge-dev-win-ARM64-filename",
-                "Location": "msedge-dev-win-ARM64-url",
-                "Hash": "msedge-dev-win-ARM64-hash",
-                "Sha256": "msedge-dev-win-ARM64-sha256",
-                "SizeInBytes": "msedge-dev-win-ARM64-size"
-            },
-            {
-                "Architecture": "x86",
-                "ReleaseName": "msedge-dev-win-X86-filename",
-                "Location": "msedge-dev-win-X86-url",
-                "Hash": "msedge-dev-win-X86-hash",
-                "Sha256": "msedge-dev-win-X86-sha256",
-                "SizeInBytes": "msedge-dev-win-X86-size"
-            },
-            {
-                "Architecture": "x64",
-                "ReleaseName": "msedge-dev-win-X64-filename",
-                "Location": "msedge-dev-win-X64-url",
-                "Hash": "msedge-dev-win-X64-hash",
-                "Sha256": "msedge-dev-win-X64-sha256",
-                "SizeInBytes": "msedge-dev-win-X64-size"
-            }
-        ]
-    },
-    {
-        "Product": "canary",
-        "Version": "msedge-canary-win-ver",
-        "CheckTime": "check-time",
-        "Release": [
-            {
-                "Architecture": "arm64",
-                "ReleaseName": "msedge-canary-win-ARM64-filename",
-                "Location": "msedge-canary-win-ARM64-url",
-                "Hash": "msedge-canary-win-ARM64-hash",
-                "Sha256": "msedge-canary-win-ARM64-sha256",
-                "SizeInBytes": "msedge-canary-win-ARM64-size"
-            },
-            {
-                "Architecture": "x86",
-                "ReleaseName": "msedge-canary-win-X86-filename",
-                "Location": "msedge-canary-win-X86-url",
-                "Hash": "msedge-canary-win-X86-hash",
-                "Sha256": "msedge-canary-win-X86-sha256",
-                "SizeInBytes": "msedge-canary-win-X86-size"
-            },
-            {
-                "Architecture": "x64",
-                "ReleaseName": "msedge-canary-win-X64-filename",
-                "Location": "msedge-canary-win-X64-url",
-                "Hash": "msedge-canary-win-X64-hash",
-                "Sha256": "msedge-canary-win-X64-sha256",
-                "SizeInBytes": "msedge-canary-win-X64-size"
-            }
-        ]
-    }
-]
+{
+    "Product": "product-name",
+    "Version": "msedge-product-win-ver",
+    "CheckTime": "check-time",
+    "Release": [
+        {
+            "Architecture": "arm64",
+            "ReleaseName": "msedge-product-win-ARM64-filename",
+            "Location": "msedge-product-win-ARM64-url",
+            "Hash": "msedge-product-win-ARM64-hash",
+            "Sha256": "msedge-product-win-ARM64-sha256",
+            "SizeInBytes": "msedge-product-win-ARM64-size"
+        },
+        {
+            "Architecture": "x86",
+            "ReleaseName": "msedge-product-win-X86-filename",
+            "Location": "msedge-product-win-X86-url",
+            "Hash": "msedge-product-win-X86-hash",
+            "Sha256": "msedge-product-win-X86-sha256",
+            "SizeInBytes": "msedge-product-win-X86-size"
+        },
+        {
+            "Architecture": "x64",
+            "ReleaseName": "msedge-product-win-X64-filename",
+            "Location": "msedge-product-win-X64-url",
+            "Hash": "msedge-product-win-X64-hash",
+            "Sha256": "msedge-product-win-X64-sha256",
+            "SizeInBytes": "msedge-product-win-X64-size"
+        }
+    ]
+}
