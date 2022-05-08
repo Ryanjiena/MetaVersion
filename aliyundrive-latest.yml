@@ -1,8 +1,0 @@
-version: 3.2.1
-files:
-  - url: https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/3.2.1/update/win32/ia32/aDrive-3.2.1.exe
-    sha512: 4YtKwCg5FdlPQkZQXjIVNrdqpr4WZYuXxsLqB3jFKpUcYSveYQsTeGIBSrrhH9N77EZIP9rzxxOUulmILGjkYQ==
-    size: 96145823
-path: aDrive-3.2.1.exe
-sha512: 4YtKwCg5FdlPQkZQXjIVNrdqpr4WZYuXxsLqB3jFKpUcYSveYQsTeGIBSrrhH9N77EZIP9rzxxOUulmILGjkYQ==
-releaseDate: 2022-04-18T11:00:35.010Z

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "aDrive",
+        "checkTime": "check-Time",
+        "version": "adrive-version",
+        "url": "adrive-url",
+        "hash": "adrive-hash"
+    },
+    {
+        "name": "AlipayDevelopmentAssistant",
+        "checkTime": "check-Time",
+        "version": "alipaydevelopmentassistant-version",
+        "url": "alipaydevelopmentassistant-url"
+    },
+    {
+        "name": "DingTalk",
+        "checkTime": "check-Time",
+        "version": "dingtalk-version",
+        "url": "dingtalk-url",
+        "hash": "dingtalk-hash"
+    },
+    {
+        "name": "Teambition",
+        "checkTime": "check-Time",
+        "version": "teambition-version",
+        "url": "teambition-url",
+        "hash": "teambition-hash"
+    },
+    {
+        "name": "Yuque-Stable",
+        "checkTime": "check-Time",
+        "version": "yuque-stable-version",
+        "url": "yuque-stable-url"
+    },
+    {
+        "name": "Yuque-Insiders",
+        "checkTime": "check-Time",
+        "version": "yuque-insiders-version",
+        "url": "yuque-insiders-url"
+    }
+]
