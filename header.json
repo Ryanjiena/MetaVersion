@@ -23,5 +23,12 @@
         "name": "wemod-beta",
         "url": "https://api.wemod.com/client/channels/beta/releases/latest",
         "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.0.13-beta00.exe"
+    },
+    {
+        "name": "youdao-dict",
+        "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
+        "redirect": "http://download.ydstatic.cn/cidian/static/8.10/20220418/YoudaoDictSetup.exe",
+        "version_redirect": "8.10.7.0#http://download.ydstatic.cn/cidian/static/8.10/20220418/YoudaoDictSetup.exe",
+        "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
