@@ -2,7 +2,7 @@
     "github": {
         "silent": true
     },
-    "rewrites": [
+    "redirects": [
         {
             "source": "/msedge-stable-win-ARM64",
             "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4947f49c-f7d6-4341-9b8b-9fdfb33f7843?P1=1653064059&P2=404&P3=2&P4=DYmMOA6P5i7XgKO%2bEcN1AeqnkMyzZO0Umh4unIsTMHRtqPcvD0aDQkdcbfw%2fggzWyXwFJKYYF1UF8SOLkROdtg%3d%3d"
