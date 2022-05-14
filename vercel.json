@@ -110,10 +110,6 @@
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/ccleaner"
         },
         {
-            "source": "/chrome",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome"
-        },
-        {
             "source": "/clash",
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/clash"
         },
