@@ -70,7 +70,7 @@
         {
             "source": "/msedge-canary",
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
-        },
+        }
     ],
     "redirects": [
         {
