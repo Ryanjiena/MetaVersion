@@ -50,14 +50,29 @@
         {
             "source": "/msedge-canary-win-X64",
             "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f864d848-fb0b-4df7-8178-86ec255b7bee?P1=1653064061&P2=404&P3=2&P4=eO3DoSc6KK1ydHNS5EQlpicvagb322YxvqOFivtW%2fwyEMnUgV9%2b39FcYkDw%2batLzc66k6cDzKOb024FcnM%2bNFw%3d%3d"
-        }
+        },
+        {
+            "source": "/chrome",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
+        },
+        {
+            "source": "/msedge-stable",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-stable.json"
+        },
+        {
+            "source": "/msedge-canary",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
+        },
+        {
+            "source": "/msedge-dev",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-dev.json"
+        },
+        {
+            "source": "/msedge-canary",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
+        },
     ],
     "redirects": [
-
-        {
-            "source": "/msedge",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge"
-        },
         {
             "source": "/MouseInc",
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/mouseinc"
