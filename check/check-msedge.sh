@@ -57,7 +57,7 @@ function getGeneratedVersionInfo() {
 
             # replace vercel link
             source_name="/msedge-${productArr[i]}-win-${arch}"
-            old_url="$(cat ../vercel.json | jq -r ".rewrites[] | select(.source == \"${source_name}\") | .destination" | sed -e 's/[]&\/$*.^[]/\\&/g')"
+            old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination" | sed -e 's/[]&\/$*.^[]/\\&/g')"
             sed -e "s|${old_url}|${releaseInfoUrl}|g" -i ../vercel.json
 
         done
