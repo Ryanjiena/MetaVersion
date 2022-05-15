@@ -22,7 +22,7 @@
     {
         "name": "wemod-beta",
         "url": "https://api.wemod.com/client/channels/beta/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.0.13-beta00.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.1.0-beta00.exe"
     },
     {
         "name": "dotnet35-sp1",
