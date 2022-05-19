@@ -29,7 +29,7 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     # local_ver="$(cat ../workflow | jq -r ".[] | select(.name == \"${nameArr[i]}\") | .version")"
     # sed -e "s|${local_ver}|${remote_ver}|g" -i ../workflow
 
-    workflow_run_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/runs" | jq -r ".workflow_runs | .[] | select(.event == \"push\") | .html_url" | head -1)"
+    workflow_run_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | jq -r ".workflow_runs | .[] | select(.event == \"push\") | .html_url" | head -1)"
     source_name="/${nameArr[i]}"
     workflow_run_old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination")"
     sed -e "s|${workflow_run_old_url}|${workflow_run_url}|g" -i ../vercel.json

@@ -233,7 +233,11 @@
         },
         {
             "source": "/jpochyla/psst",
-            "destination": "https://github.com/jpochyla/psst/actions/runs/2008968370"
+            "destination": "https://github.com/jpochyla/psst/actions/runs/2332255883"
+        },
+        {
+            "source": "/v2rayA/v2rayA",
+            "destination": "https://github.com/v2rayA/v2rayA/actions/runs/2345706918"
         },
         {
             "source": "/(.*)",
