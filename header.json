@@ -17,7 +17,7 @@
     {
         "name": "wemod-stable",
         "url": "https://api.wemod.com/client/channels/stable/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.0.13.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.1.0.exe"
     },
     {
         "name": "wemod-beta",
