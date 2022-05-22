@@ -2,18 +2,40 @@
     "github": {
         "silent": true
     },
+    "rewrites": [
+        {
+            "source": "/chrome",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
+        },
+        {
+            "source": "/msedge-stable",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-stable.json"
+        },
+        {
+            "source": "/msedge-beta",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-beta.json"
+        },
+        {
+            "source": "/msedge-dev",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-dev.json"
+        },
+        {
+            "source": "/msedge-canary",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
+        }
+    ],
     "redirects": [
         {
             "source": "/msedge-stable-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/71fad011-31ce-4719-869b-405ca0ce6fa4?P1=1653815597&P2=404&P3=2&P4=HRw%2bTv7RbXC0brsvXy%2b1WngRN3OjYAGfehD4eTBU3QRz6RutJ7NW5xnSFNt5lDI725qHMioYaI4Pg22xsLXi6A%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/71fad011-31ce-4719-869b-405ca0ce6fa4?P1=1653820421&P2=404&P3=2&P4=Ze0Ul8gh3bjpciT9qNnxXfOS9znBibHgtjYEpJx%2by3YD4d5DG2rCGimoeoU1xl3I7GcOa1toCifgHYyO6p1TiA%3d%3d"
         },
         {
             "source": "/msedge-stable-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/29adf02e-b3fe-461f-8a4f-73a99d1b3df4?P1=1653815596&P2=404&P3=2&P4=ZDC%2fu372ynaw2dSt0YFmhOx6iWADo1eYhzlxmfYWH9rPqLJTf4cdsF0m8a6HP4dw3h0WkGF%2bsvCDaPK%2b68XMqg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/29adf02e-b3fe-461f-8a4f-73a99d1b3df4?P1=1653820417&P2=404&P3=2&P4=n7LjuygxAZNmBua3TnILyJybb%2boN5mZowKzGpiaYIIy80XjYIuAQyYO0M07%2fowszneDpMtAC%2bNxnrXGHSNz87w%3d%3d"
         },
         {
             "source": "/msedge-stable-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4925f00b-aab9-4999-9a00-0426a369eca3?P1=1653815595&P2=404&P3=2&P4=HH45ZcTtfDxptHeulfwGVU0mitiNle%2bLBO8kOb5NYi7A%2b2pmHCdNo4VHU5IxpNrcfAsalnmsewBCqtgC0wUjTQ%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4925f00b-aab9-4999-9a00-0426a369eca3?P1=1653820414&P2=404&P3=2&P4=BLiC%2fcIqMTsF0peo2qcR6seYg2yAI%2fjJMRptteKVOnp0mnUfD1ixW3%2bZPmpLQvxulgaH68P0FsIzKaDCT87QNg%3d%3d"
         },
         {
             "source": "/msedge-beta-win-ARM64",
@@ -29,219 +51,39 @@
         },
         {
             "source": "/msedge-dev-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9c4ff1bc-1063-4a21-85b0-b779a5751ee8?P1=1653815600&P2=404&P3=2&P4=aTRBV2h1NgohfK489RqPTczUNIB6IaApvYFDpkfyYlhSTo9b1927Hr%2fG2F3O1Wg98cqorieBOpP00QwKQJSRYQ%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9c4ff1bc-1063-4a21-85b0-b779a5751ee8?P1=1653820434&P2=404&P3=2&P4=CFH4NOo2qPOmUZ%2b6dGtnNId0%2f4ishcN46jmGRE2Bb2%2frqJs%2fEG2YRJlZTNQX4tKdH%2byBA9fgd1FB2BzYZElTNA%3d%3d"
         },
         {
             "source": "/msedge-dev-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/548bcb6e-ccf2-4d04-84c1-84a97df2eef1?P1=1653815599&P2=404&P3=2&P4=HIsUnnZNhaRXuzNms%2bNYZmXfAw9U4Pg7YWIJFSiOgoxsWQ31tGontIZfIo3zDXnfm%2ba4Jmmk0noXsAM9qscO4g%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/548bcb6e-ccf2-4d04-84c1-84a97df2eef1?P1=1653820430&P2=404&P3=2&P4=H%2fmwBLmtfmJZP4isPHyhCtgj%2fFhuzB2qmtVAWecbW78cBkAQWrhFaMXmqHBR7KWRa%2bSQeTd48aRIN%2fixxcBNpg%3d%3d"
         },
         {
             "source": "/msedge-dev-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f864d848-fb0b-4df7-8178-86ec255b7bee?P1=1653815598&P2=404&P3=2&P4=eUASCtaYihJBpBDvQC%2bk%2flX3ffU1WZCFOqjouDeI2xLglKi5IK4GbXeUMzbGmWFhu3ZuWdyJesslsOE3PGnisg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f864d848-fb0b-4df7-8178-86ec255b7bee?P1=1653820427&P2=404&P3=2&P4=BxnlLCLOjTCiS3%2b8ne6%2fviAT2hiZAbmKm2AcGTawKQreaZwjFjHpL1ddusqXE%2fcSoHhNIBvU1zYz1piI8wr2%2bg%3d%3d"
         },
         {
             "source": "/msedge-canary-win-ARM64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8ff5198-5dfa-4af5-a9e9-0d16f084e235?P1=1653815602&P2=404&P3=2&P4=gu1T68Fb41d8PW5p3Zyb1zm%2fXWQ%2f4M6h%2fE64FFrcnd6AefCJx7xatjcSfxPEL8fE%2b%2bRCQRRSk57O26iINgZNWA%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f8ff5198-5dfa-4af5-a9e9-0d16f084e235?P1=1653820439&P2=404&P3=2&P4=Z0gb9N%2f8s6S1s4al3oP9gHOgZ8%2bzKrTg8vsoL0%2bZcCE%2bBXWJivdMnWT4fVbUNzGhqF4X4Jj3wij%2f%2bYlixK%2f0DA%3d%3d"
         },
         {
             "source": "/msedge-canary-win-X86",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6a7ba700-c474-4e53-bf29-667aba365055?P1=1653815601&P2=404&P3=2&P4=AukPQ0k%2bfghNyB%2fJdKxNLSpN%2fAym5Aw46Gb7jpTpd8k8YCQycfVEWQVsmmURCFy2kVAsA1F7wVt5w8060ShGBg%3d%3d"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6a7ba700-c474-4e53-bf29-667aba365055?P1=1653820438&P2=404&P3=2&P4=I1%2bH4e6o3PuZz%2bUYEP4e14cSbdhOPnh32mzsKrfT4%2fLCzUgg6PTuv5DymGAOR6ghiFxGzQqHXArqc6wO2Sy0xw%3d%3d"
         },
         {
             "source": "/msedge-canary-win-X64",
-            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/b6ec3322-c6d2-4612-ac00-90576f5a70b5?P1=1653815601&P2=404&P3=2&P4=UoAo7wkoA%2b7boq4a7s81Bn0U8i4YDNPp7PGeqwrNxptku%2bkfp1R4Qv57G5m9FTJP4gwBZRKKtAw5VzNJi4AQ1w%3d%3d"
-        },
-        {
-            "source": "/chrome",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
-        },
-        {
-            "source": "/msedge-stable",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-stable.json"
-        },
-        {
-            "source": "/msedge-canary",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
-        },
-        {
-            "source": "/msedge-dev",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-dev.json"
-        },
-        {
-            "source": "/msedge-canary",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
-        },
-        {
-            "source": "/MouseInc",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/mouseinc"
-        },
-        {
-            "source": "/52pj",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/52pj"
-        },
-        {
-            "source": "/acmekit",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/acmekit"
-        },
-        {
-            "source": "/aliyundrive",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/aliyundrive"
-        },
-        {
-            "source": "/aliyundrive-latest.yml",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/aliyundrive-latest.yml"
-        },
-        {
-            "source": "/bandicam",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bandicam"
-        },
-        {
-            "source": "/bandizip",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bandizip"
-        },
-        {
-            "source": "/bcompare",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/bcompare"
-        },
-        {
-            "source": "/ccleaner",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/ccleaner"
-        },
-        {
-            "source": "/clash",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/clash"
-        },
-        {
-            "source": "/directX_repair",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/directX_repair"
-        },
-        {
-            "source": "/djcl",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/djcl"
-        },
-        {
-            "source": "/gh",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/gh"
-        },
-        {
-            "source": "/gif",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/gif"
-        },
-        {
-            "source": "/idm",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/idm"
-        },
-        {
-            "source": "/iyoung",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/iyoung"
-        },
-        {
-            "source": "/jdk",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/jdk"
-        },
-        {
-            "source": "/LICENSE",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/LICENSE"
-        },
-        {
-            "source": "/lrepacks",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/lrepacks"
-        },
-        {
-            "source": "/mouseinc",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/mouseinc"
-        },
-        {
-            "source": "/msedge",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge"
-        },
-        {
-            "source": "/music",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/music"
-        },
-        {
-            "source": "/ocr",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/ocr"
-        },
-        {
-            "source": "/office-iso",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/office-iso"
-        },
-        {
-            "source": "/patch",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/patch"
-        },
-        {
-            "source": "/potplayer",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/potplayer"
-        },
-        {
-            "source": "/qiuquan",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/qiuquan"
-        },
-        {
-            "source": "/qq",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/qq"
-        },
-        {
-            "source": "/README.md",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/README.md"
-        },
-        {
-            "source": "/runningcheese",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/runningcheese"
-        },
-        {
-            "source": "/shuax",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/shuax"
-        },
-        {
-            "source": "/sogou",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/sogou"
-        },
-        {
-            "source": "/tencent",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/tencent"
-        },
-        {
-            "source": "/tools",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/tools"
-        },
-        {
-            "source": "/typeeasy",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/typeeasy"
-        },
-        {
-            "source": "/typora",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/typora"
-        },
-        {
-            "source": "/vcredist",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/vcredist"
-        },
-        {
-            "source": "/wenlei",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/wenlei"
-        },
-        {
-            "source": "/xshell",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/xshell"
-        },
-        {
-            "source": "/zd423",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/zd423"
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/b6ec3322-c6d2-4612-ac00-90576f5a70b5?P1=1653820437&P2=404&P3=2&P4=YomCGwG%2bBF9jR2I6IQaFerFqELF%2bvR8Q32r1m7gnSnu4eb%2b4qIGZ7ox31SbuyGRrVqIgioWvBAgXT9bZTkEJSw%3d%3d"
         },
         {
             "source": "/jpochyla/psst",
-            "destination": "https://github.com/jpochyla/psst/actions/runs/2332255883"
+            "destination": "https://github.com/jpochyla/psst/actions/runs/2349909010"
         },
         {
             "source": "/v2rayA/v2rayA",
-            "destination": "https://github.com/v2rayA/v2rayA/actions/runs/2345706918"
+            "destination": "https://github.com/v2rayA/v2rayA/actions/runs/2363196567"
         },
         {
             "source": "/(.*)",
-            "destination": "https://github.com/Ryanjiena/MetaVersion"
+            "destination": "https://www.google.com"
         }
     ]
 }

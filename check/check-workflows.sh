@@ -12,12 +12,12 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-checktime="$(cat ../workflow | jq -r '.checktime')"
-nameArr=($(cat ../workflow | jq -r '.[] | .name'))
-workflowArr=($(cat ../workflow | jq -r '.[] | .workflow'))
-branchArr=($(cat ../workflow | jq -r '.[] | .branch'))
+checktime="$(cat ../workflow.json | jq -r '.checktime')"
+nameArr=($(cat ../workflow.json | jq -r '.[] | .name'))
+workflowArr=($(cat ../workflow.json | jq -r '.[] | .workflow'))
+branchArr=($(cat ../workflow.json | jq -r '.[] | .branch'))
 
-sed -e "s|${checktime}|${DATE}|g" -i ../workflow
+sed -e "s|${checktime}|${DATE}|g" -i ../workflow.json
 for ((i = 0; i < ${#nameArr[@]}; i++)); do
     echo -e "${Info} Check ${nameArr[i]} ..."
     # source_name="/${nameArr[i]}"
@@ -26,8 +26,8 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     # sed -e "s|${artifacts_old_url}|${artifacts_url}|g" -i ../vercel.json
 
     # remote_ver="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | grep -o '"created_at": ".*"' | head -n 1 | sed 's/"//g;s/-//g;s/://g' | sed 's/created_at //g;s/T/./g;s/Z//g')"
-    # local_ver="$(cat ../workflow | jq -r ".[] | select(.name == \"${nameArr[i]}\") | .version")"
-    # sed -e "s|${local_ver}|${remote_ver}|g" -i ../workflow
+    # local_ver="$(cat ../workflow.json | jq -r ".[] | select(.name == \"${nameArr[i]}\") | .version")"
+    # sed -e "s|${local_ver}|${remote_ver}|g" -i ../workflow.json
 
     workflow_run_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | jq -r ".workflow_runs | .[] | select(.event == \"push\") | .html_url" | head -1)"
     source_name="/${nameArr[i]}"

@@ -66,6 +66,8 @@ function getGeneratedInfo() {
                 hash=$(echo "${request}" | xmllint --xpath "string(/response/app/updatecheck/manifest/packages/package/@hash_sha256)" -)
                 size=$(echo "${request}" | xmllint --xpath "string(/response/app/updatecheck/manifest/packages/package/@size)" -)
 
+                echo -e "${Green_font_prefix}chrome-${productArr[i]}-${os}-${arch}${Font_color_suffix} -> ${url0}${releaseName}"
+
                 sed -e "s|chrome-${productArr[i]}-${os}-${arch}-ver|${version}|g" \
                     -e "s|chrome-${productArr[i]}-${os}-${arch}-releasename|${releaseName}|g" \
                     -e "s|chrome-${productArr[i]}-${os}-${arch}-url0|${url0}${releaseName}|g" \
@@ -78,7 +80,6 @@ function getGeneratedInfo() {
                     -e "s|chrome-${productArr[i]}-${os}-${arch}-size|${size}|g" \
                     -i \
                     chrome.json
-                sleep 6
             done
         done
     done

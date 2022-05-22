@@ -16,14 +16,14 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-for item in "alibaba" "header" "chrome" "mouseinc" "msedge" "office-iso" "shuax-new"; do
+for item in "alibaba" "header" "chrome" "msedge" "shuax-new" "workflows"; do
     cd ${check_dir}
     echo -e "${Green_font_prefix}[Info] Check ${item}...${Font_color_suffix}"
     sed -i 's/\r$//' check-${item}.sh
     bash check-${item}.sh
 done
 
-oneindex
+# oneindex
 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 cd ${cur_dir}
 wget --user-agent="${userAgent}" --no-check-certificate --quiet -O "oneindex.txt" "https://pan.jiemi.workers.dev/?file=/scoop/tree.txt"

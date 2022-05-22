@@ -13,10 +13,10 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-nameArr=($(cat ../program | jq -r '.[] | .name'))
-regexArr=($(cat ../program | jq -r '.[] | .regex'))
-urlArr=($(cat ../program | jq -r '.[] | .url'))
-verArr=($(cat ../program | jq -r '.[] | .version'))
+nameArr=($(cat ../program.json | jq -r '.[] | .name'))
+regexArr=($(cat ../program.json | jq -r '.[] | .regex'))
+urlArr=($(cat ../program.json | jq -r '.[] | .url'))
+verArr=($(cat ../program.json | jq -r '.[] | .version'))
 
 pip install -r requirements.txt
 
@@ -39,7 +39,7 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     remote_ver=$(echo "${result}" | grep -oP "${regexArr[i]}[\d.a-z]+" | sed "s|${regexArr[i]}||g;s|.exe||g" | head -1)
     if [[ "${remote_ver}" != "${verArr[i]}" ]]; then
         echo "- [ ] **[${nameArr[i]}](${urlArr[i]})** ${verArr[i]} -> ${remote_ver}" >>IBody
-        sed -i "s|${verArr[i]}|${remote_ver}|g" ../program
+        sed -i "s|${verArr[i]}|${remote_ver}|g" ../program.json
     else
         echo "${Info} ${nameArr[i]} is latest version!"
     fi
