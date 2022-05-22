@@ -2,7 +2,7 @@
     "github": {
         "silent": true
     },
-    "rewrites": [
+    "redirects": [
         {
             "source": "/chrome",
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
@@ -22,9 +22,7 @@
         {
             "source": "/msedge-canary",
             "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
-        }
-    ],
-    "redirects": [
+        },
         {
             "source": "/msedge-stable-win-ARM64",
             "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/71fad011-31ce-4719-869b-405ca0ce6fa4?P1=1653820421&P2=404&P3=2&P4=Ze0Ul8gh3bjpciT9qNnxXfOS9znBibHgtjYEpJx%2by3YD4d5DG2rCGimoeoU1xl3I7GcOa1toCifgHYyO6p1TiA%3d%3d"
@@ -83,7 +81,7 @@
         },
         {
             "source": "/(.*)",
-            "destination": "https://www.google.com"
+            "destination": "https://github.com/Ryanjiena/MetaVersion"
         }
     ]
 }
