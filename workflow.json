@@ -8,5 +8,10 @@
         "name": "v2rayA/v2rayA",
         "workflow": "release",
         "branch": "master"
+    },
+    "Shadowsocks-NET/Qv2ray": {
+        "name": "Shadowsocks-NET/Qv2ray",
+        "workflow": "build",
+        "branch": "main"
     }
 }

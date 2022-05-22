@@ -80,6 +80,10 @@
             "destination": "https://github.com/v2rayA/v2rayA/actions/runs/2363196567"
         },
         {
+            "source": "/Shadowsocks-NET/Qv2ray",
+            "destination": "https://github.com/Shadowsocks-NET/Qv2ray/actions/runs/2364650948"
+        },
+        {
             "source": "/(.*)",
             "destination": "https://github.com/Ryanjiena/MetaVersion"
         }
