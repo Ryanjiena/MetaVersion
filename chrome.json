@@ -1,7 +1,7 @@
 [
     {
         "Product": "stable",
-        "CheckTime": "2022-05-26 15:14:24",
+        "CheckTime": "2022-05-26 18:16:15",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -55,7 +55,7 @@
     },
     {
         "Product": "beta",
-        "CheckTime": "2022-05-26 15:14:24",
+        "CheckTime": "2022-05-26 18:16:15",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -109,7 +109,7 @@
     },
     {
         "Product": "dev",
-        "CheckTime": "2022-05-26 15:14:24",
+        "CheckTime": "2022-05-26 18:16:15",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -163,7 +163,7 @@
     },
     {
         "Product": "canary",
-        "CheckTime": "2022-05-26 15:14:24",
+        "CheckTime": "2022-05-26 18:16:15",
         "Release": [
             {
                 "Architecture": "win-x86",
