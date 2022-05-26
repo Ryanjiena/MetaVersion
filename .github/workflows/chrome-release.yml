@@ -1,0 +1,88 @@
+name: Release
+
+on:
+  # schedule:
+  #   - cron: "0 0 * * *"
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+  AuthToken: ${{ secrets.AuthToken }}
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: "main"
+      - name: Install Dependence
+        run: sudo apt-get install -y p7zip-full curl wget jq gh
+      - name: Build
+        run: |
+          set -euxo pipefail
+
+          CURRENT_DIR=$(pwd)
+          DATE=$(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')
+          USER=$(whoami)
+          TMP_DIR="${TMP_DIR:-$(mktemp -d /tmp/chrome.XXXX)}"
+          LOG_FILE="${LOG_FILE:-${TMP_DIR}/build.log}"
+
+          Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
+          Info="${Green_font_prefix}[Info]${Font_color_suffix}"
+          Error="${Red_font_prefix}[Error]${Font_color_suffix}"
+          Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
+
+          user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+          stable_version=$(cat chrome.json | grep "Version" | awk -F '"' '{print $4}' | head -n 1)
+          release_version="1.0.0"
+
+          chrome_x86_url=$(cat chrome.json | grep -Po 'https://dl.google.com.*?chrome_installer.exe' | head -n 1)
+          chrome_x64_url=$(cat chrome.json | grep -Po 'https://dl.google.com.*?chrome_installer.exe' | sed -n '2p')
+
+          chrome_plus_actions_id="$(wget --user-agent="${user_agent}" --no-check-certificate -qO- "https://scoop-apps.vercel.app/shuax/chrome_plus" | grep -Po 'shuax/chrome_plus/actions/runs/\d+' | head -n 1 | grep -Po '\d+')"
+          chrome_plus_actions_time="$(wget --user-agent="${user_agent}" --no-check-certificate -qO- "https://scoop-apps.vercel.app/shuax/chrome_plus" | grep -Po 'datetime=\"\d+.\d+.\d+' | head -n 1 | sed 's/datetime=\"//g;s/-//g')"
+          chrome_plus_actions_sha="$(wget --user-agent="${user_agent}" --no-check-certificate -qO- "https://scoop-apps.vercel.app/shuax/chrome_plus" | grep -Po 'shuax/chrome_plus/commit/[0-9a-f]{7}' | head -n 1 | sed 's/shuax\/chrome_plus\/commit\///g')"
+
+          chrome_plus_x64_url="https://nightly.link/shuax/chrome_plus/actions/runs/${chrome_plus_actions_id}/windows_x64.zip"
+          chrome_plus_x86_url="https://nightly.link/shuax/chrome_plus/actions/runs/${chrome_plus_actions_id}/windows_x86.zip"
+
+          if [[ "${stable_version}" != "${release_version}" ]]; then
+              cd check\chrome
+              mkdir "chrome_${stable_version}_x86_shuax" "chrome_${stable_version}_x64_shuax"
+
+              echo "#### Version\n - chrome: ${stable_version}\n - hrome_plus: ${chrome_plus_actions_time}.${chrome_plus_actions_sha}\n#### Hash\n" >notes.md
+
+              wget --user-agent="${user_agent}" -qO "chrome_${stable_version}_x86_installer.exe.7z" "${chrome_x86_url}"
+              7z x "chrome_${stable_version}_x86_installer.exe.7z" >>${LOG_FILE}
+              7z x "chrome.7z" -o"chrome_${stable_version}_x86_shuax" >>${LOG_FILE}
+              wget --user-agent="${user_agent}" -qO "chrome_plus_x86.zip" "${chrome_plus_x86_url}"
+              unzip "chrome_plus_x86.zip" -d "chrome_${stable_version}_x86_shuax/Chrome-bin" >>${LOG_FILE}
+              mkdir -p "chrome_${stable_version}_x86_shuax/Cache" "chrome_${stable_version}_x86_shuax/Data"
+              mv "chrome_${stable_version}_x86_shuax/Chrome-bin" "chrome_${stable_version}_x86_shuax/App"
+              cp "说明.txt" "清理.bat" "Chrome.exe" "first-run.ps1" "chrome_${stable_version}_x86_shuax/"
+              rm -f "chrome_${stable_version}_x86_installer.exe.7z" "chrome_plus_x86.zip" "chrome.7z"
+
+              wget --user-agent="${user_agent}" -qO "chrome_${stable_version}_x64_installer.exe.7z" "${chrome_x64_url}"
+              7z x "chrome_${stable_version}_x64_installer.exe.7z" >>${LOG_FILE}
+              7z x "chrome.7z" -o"chrome_${stable_version}_x64_shuax" >>${LOG_FILE}
+              wget --user-agent="${user_agent}" -qO "chrome_plus_x64.zip" "${chrome_plus_x64_url}"
+              unzip "chrome_plus_x64.zip" -d "chrome_${stable_version}_x64_shuax/Chrome-bin" >>${LOG_FILE}
+              mkdir -p "chrome_${stable_version}_x64_shuax/Cache" "chrome_${stable_version}_x64_shuax/Data"
+              mv "chrome_${stable_version}_x64_shuax/Chrome-bin" "chrome_${stable_version}_x64_shuax/App"
+              cp "说明.txt" "清理.bat" "Chrome.exe" "first-run.ps1" "chrome_${stable_version}_x64_shuax/"
+              rm -f "chrome_${stable_version}_x64_installer.exe.7z" "chrome_plus_x64.zip" "chrome.7z"
+
+              7z a -mx=9 -mm=LZMA chrome_${stable_version}_x86_shuax.7z "chrome_${stable_version}_x86_shuax/" >>${LOG_FILE}
+              7z a -mx=9 -mm=LZMA chrome_${stable_version}_x64_shuax.7z "chrome_${stable_version}_x64_shuax/" >>${LOG_FILE}
+              sha256sum chrome_${stable_version}_x86_shuax.7z chrome_${stable_version}_x64_shuax.7z >sha256.txt
+              sha256sum chrome_${stable_version}_x86_shuax.7z chrome_${stable_version}_x64_shuax.7z >>notes.md
+
+              echo "${AuthToken}" | gh auth login --with-token
+              gh release create chrome_stable_plus --prerelease --notes-file "notes.md" --title "Chrome Stable Plus"
+              gh release upload --clobber chrome_stable_plus "chrome_${stable_version}_x86_shuax.7z" "chrome_${stable_version}_x64_shuax.7z" "sha256.txt"
+              echo "Y" | gh auth logout --hostname github.com
+
+          fi
