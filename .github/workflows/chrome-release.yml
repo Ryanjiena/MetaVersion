@@ -50,7 +50,7 @@ jobs:
           chrome_plus_x86_url="https://nightly.link/shuax/chrome_plus/actions/runs/${chrome_plus_actions_id}/windows_x86.zip"
 
           if [[ "${stable_version}" != "${release_version}" ]]; then
-              cd check\chrome
+              cd ${CURRENT_DIR}/check/chrome/
               mkdir "chrome_${stable_version}_x86_shuax" "chrome_${stable_version}_x64_shuax"
 
               echo "#### Version\n - chrome: ${stable_version}\n - hrome_plus: ${chrome_plus_actions_time}.${chrome_plus_actions_sha}\n#### Hash\n" >notes.md

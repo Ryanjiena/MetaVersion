@@ -45,8 +45,8 @@ function getGeneratedVersionInfo() {
             # https://unix.stackexchange.com/questions/296705/using-sed-with-ampersand/296732#296732
             releaseInfoUrl=$(echo "$response" | jq -r '.Url' | sed -e 's/[\/&]/\\&/g')
 
-            [[ -z "${releaseInfoUrl}" ]] && echo -e "${Error} ${fileName} url: null " && continue 2
-            echo -e "${Green_font_prefix}${fileName}${Font_color_suffix} -> ${releaseInfoUrl}"
+            [[ -z "${releaseInfoUrl}" ]] && echo -e "${Error} msedge-${productArr[i]}-win-${arch} url: null " && continue 2
+            echo -e "${Green_font_prefix}msedge-${productArr[i]}-win-${arch}${Font_color_suffix} -> ${releaseInfoUrl}"
 
             sed -e "s|msedge-product-win-${arch}-filename|${releaseInfoFileId}|g" \
                 -e "s|msedge-product-win-${arch}-url|${releaseInfoUrl}|g" \
