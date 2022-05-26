@@ -84,6 +84,14 @@
             "destination": "https://github.com/Shadowsocks-NET/Qv2ray/actions/runs/2384111059"
         },
         {
+            "source": "/shuax/chrome_plus",
+            "destination": "https://github.com/shuax/chrome_plus/actions/runs/2267434457"
+        },
+        {
+            "source": "/shuax/edge_plus",
+            "destination": "https://github.com/shuax/edge_plus/actions/runs/2267461250"
+        },
+        {
             "source": "/(.*)",
             "destination": "https://github.com/Ryanjiena/MetaVersion"
         }

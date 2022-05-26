@@ -13,5 +13,15 @@
         "name": "Shadowsocks-NET/Qv2ray",
         "workflow": "build",
         "branch": "main"
+    },
+    "shuax/chrome_plus": {
+        "name": "shuax/chrome_plus",
+        "workflow": "build",
+        "branch": "main"
+    },
+    "shuax/edge_plus": {
+        "name": "shuax/edge_plus",
+        "workflow": "build",
+        "branch": "main"
     }
 }
