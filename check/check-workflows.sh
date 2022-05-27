@@ -19,7 +19,7 @@ branchArr=($(cat ../workflow.json | jq -r '.[] | .branch'))
 
 sed -e "s|${checktime}|${DATE}|g" -i ../workflow.json
 for ((i = 0; i < ${#nameArr[@]}; i++)); do
-    echo -e "${Info} Check ${nameArr[i]} ..."
+
     # source_name="/${nameArr[i]}"
     # artifacts_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | grep -o '"artifacts_url": ".*"' | head -n 1 | sed 's/"//g;s/-//g;s/artifacts_url: //g')"
     # artifacts_old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination")"
@@ -30,6 +30,10 @@ for ((i = 0; i < ${#nameArr[@]}; i++)); do
     # sed -e "s|${local_ver}|${remote_ver}|g" -i ../workflow.json
 
     workflow_run_url="$(wget --user-agent="${userAgent}" --no-check-certificate -qO- "https://api.github.com/repos/${nameArr[i]}/actions/workflows/${workflowArr[i]}.yml/runs?branch=${branchArr[i]}&status=success" | jq -r ".workflow_runs | .[] | select(.event == \"push\") | .html_url" | head -1)"
+    
+    [[ -z "${workflow_run_url}" ]] && echo -e "${Error}${nameArr[i]} url: null " && continue 1
+    echo -e "${Green_font_prefix}${nameArr[i]}${Font_color_suffix} -> ${workflow_run_url}"
+
     source_name="/${nameArr[i]}"
     workflow_run_old_url="$(cat ../vercel.json | jq -r ".redirects[] | select(.source == \"${source_name}\") | .destination")"
     sed -e "s|${workflow_run_old_url}|${workflow_run_url}|g" -i ../vercel.json
