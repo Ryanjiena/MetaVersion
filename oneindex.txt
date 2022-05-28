@@ -20,11 +20,17 @@
 │   ├── BComparePortable_v4.4.1.26165_20211220.7z
 │   └── UltraISO_9.7.6.3829_V2_DJLH.Portable.7z
 ├── else
+│   ├── Appbench_v1.0.zip
+│   ├── CareUEyes_2.1.12.0_Portable.7z
+│   ├── CareUEyes_v1.1.13.0.7z
 │   ├── Clash.NET.1.2.8.x64.7z
 │   ├── Clash.NET.1.2.8.x86.7z
 │   ├── Clash.NET.1.2.8.zip
 │   ├── DirectX_Repair(Enhanced_Edition)_v4.1.0.30770.7z
-│   └── MusicTag_v1.0.8.0.7z
+│   ├── MusicTag_v1.0.8.0.7z
+│   ├── 投屏控制器32位_V3.1.0.7z
+│   ├── 投屏控制器64位_V3.1.0.7z
+│   └── 搞机工具箱V8.41.zip
 ├── gh
 │   ├── antdownload_3.0.5.zip
 │   ├── Antdownload_v3.0.3.7z
@@ -204,7 +210,13 @@
 │   ├── SogouInput_v11.9d(11.9.0.5784)_xingkbjm_lite.exe
 │   ├── SogouWBInput_5.4.0.2538_qiuquan_noad-20220317.exe
 │   ├── SogouWBInput_v5.4b(5.4.0.2538)_xingkbjm_noad.exe
-│   └── SogouWBInput_v5.5a(5.5.0.2552)_xingkbjm_noad.exe
+│   ├── SogouWBInput_v5.5a(5.5.0.2552)_xingkbjm_noad.exe
+│   ├── 搜狗五笔输入法_v5.5b(5.5.0.2580)_星空不寂寞去广告版.exe
+│   ├── 搜狗拼音输入法_v12.0(12.0.0.5943)_星空不寂寞精简版.exe
+│   ├── 搜狗输入法v10.5.0.4737去广告精简优化版.exe
+│   ├── 搜狗输入法v12.0.0.5943去广告精简优化版.exe
+│   ├── 搜狗输入法v12.0(5943)核心型绿色精简版.7z
+│   └── 搜狗输入法医生版_1.1.0.1278_精简优化版.exe
 ├── tencent
 │   ├── QQ_9.5.5_(28104)_Installer.rar
 │   ├── QQ_9.5.5_(28104)_Installer_With_NtrQQ_7.1.2.rar
@@ -218,44 +230,45 @@
 │   ├── QQ_9.5.9_(28625)_Installer_With_NtrQQ_7.1.2.rar
 │   ├── QQ_9.5.9_(28625)_Portable.7z
 │   ├── QQ_9.5.9_(28625)_Portable_With_NtrQQ_7.1.2.7z
-│   ├── QQ_9.6.0_(28707)_Installer.rar
-│   ├── QQ_9.6.0_(28707)_Installer_With_NtrQQ_7.1.2.rar
-│   ├── QQ_9.6.0_(28707)_Portable.7z
-│   ├── QQ_9.6.0_(28707)_Portable_With_NtrQQ_7.1.2.7z
 │   ├── QQGuild_1.0.10.2583.exe
 │   ├── QQGuild_1.0.11.3386.exe
 │   ├── TIM_3.3.9.22051_Green.7z
 │   ├── WeChat_v3.4.5.45_QiuQuan_20211230.exe
-│   └── WeChat_v3.5.0.29_QiuQuan_20220112.exe
+│   ├── WeChat_v3.5.0.29_QiuQuan_20220112.exe
+│   ├── 腾讯QQ 9.6.0 (28707) 安装版.rar
+│   ├── 腾讯QQ 9.6.0 (28707) 安装版 With NtrQQ 7.1.2.rar
+│   ├── 腾讯QQ 9.6.0 (28707) 绿色版.7z
+│   └── 腾讯QQ 9.6.0 (28707) 绿色版 With NtrQQ 7.1.2.7z
 ├── tete009
-│   ├── firefox-100.0.1-2022051316.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-100.0.1-2022051316.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-100.0-2022042819.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-100.0-2022042819.en-US.win32-tete009-x64-pgo.7z
 │   ├── firefox-100.0.2-2022051922.en-US.win32-tete009-sse2-pgo.7z
 │   ├── firefox-100.0.2-2022051922.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-96.0.1-2022011318.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-96.0.1-2022011318.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-96.0-2022010614.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-96.0-2022010614.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-96.0.2-2022011919.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-96.0.2-2022011919.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-96.0.3-2022012615.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-96.0.3-2022012615.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-97.0.1-2022021617.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-97.0.1-2022021617.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-97.0-2022020218.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-97.0-2022020218.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-97.0.2-2022030416.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-97.0.2-2022030416.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-98.0.1-2022031314.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-98.0.1-2022031314.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-98.0-2022030415.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-98.0-2022030415.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-98.0.2-2022032214.en-US.win32-tete009-sse2-pgo.7z
-│   ├── firefox-98.0.2-2022032214.en-US.win32-tete009-x64-pgo.7z
-│   ├── firefox-99.0-2022033019.en-US.win32-tete009-sse2-pgo.7z
-│   └── firefox-99.0-2022033019.en-US.win32-tete009-x64-pgo.7z
+│   └── old
+│       ├── firefox-100.0.1-2022051316.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-100.0.1-2022051316.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-100.0-2022042819.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-100.0-2022042819.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-96.0.1-2022011318.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-96.0.1-2022011318.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-96.0-2022010614.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-96.0-2022010614.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-96.0.2-2022011919.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-96.0.2-2022011919.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-96.0.3-2022012615.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-96.0.3-2022012615.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-97.0.1-2022021617.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-97.0.1-2022021617.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-97.0-2022020218.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-97.0-2022020218.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-97.0.2-2022030416.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-97.0.2-2022030416.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-98.0.1-2022031314.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-98.0.1-2022031314.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-98.0-2022030415.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-98.0-2022030415.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-98.0.2-2022032214.en-US.win32-tete009-sse2-pgo.7z
+│       ├── firefox-98.0.2-2022032214.en-US.win32-tete009-x64-pgo.7z
+│       ├── firefox-99.0-2022033019.en-US.win32-tete009-sse2-pgo.7z
+│       └── firefox-99.0-2022033019.en-US.win32-tete009-x64-pgo.7z
 ├── tree.txt
 ├── typora
 │   ├── app-linux-1.2.4-x64.asar
@@ -292,6 +305,7 @@
 │   ├── Pot_Player64_v220420(1.7.21632)_Public_@7sh3.7z
 │   ├── Pot_Player64_v220420(1.7.21632)_Public.7z
 │   ├── Pot_Player64_v220429(1.7.21633)_Dev.7z
+│   ├── Pot_Player64_v220527(1.7.21637)_Dev.7z
 │   ├── potplayer-skin-20220501.7z
 │   ├── QTranslate_Lite_v6.9.0.7z
 │   ├── rmtool_v7.4_2022017.exe
@@ -352,4 +366,4 @@
     ├── Xshell_v7.0.0109.7z
     └── 看图王_v10.9.0.9730_x64_去广告绿色版.exe
 
-21 directories, 331 files
+22 directories, 344 files
