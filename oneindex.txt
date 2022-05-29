@@ -203,24 +203,24 @@
 │   ├── edge_plus-x86-v20220504.024707.zip
 │   └── sha256sum
 ├── sogou
-│   ├── old
-│   │   ├── SogouInput_v11.7a(11.7.0.5464)_xingkbjm_lite.exe
-│   │   ├── SogouInput_v11.8a(11.8.0.5496)_xingkbjm_lite.exe
-│   │   ├── SogouInput_v11.9.0.5688_zd423_noad_lite.exe
-│   │   ├── SogouInput_v11.9.0.5784_zd423_noad_lite.exe
-│   │   ├── SogouInput_v11.9a(11.9.0.5687)_xingkbjm_lite.exe
-│   │   ├── SogouInput_v11.9d(11.9.0.5784)_xingkbjm_lite.exe
-│   │   ├── SogouWBInput_5.4.0.2538_qiuquan_noad-20220317.exe
-│   │   ├── SogouWBInput_v5.4b(5.4.0.2538)_xingkbjm_noad.exe
-│   │   └── SogouWBInput_v5.5a(5.5.0.2552)_xingkbjm_noad.exe
-│   ├── SogouInputv10.5.0.4737去广告精简优化版.exe
-│   ├── SogouInputv12.0.0.5943去广告精简优化版.exe
-│   ├── SogouInputv12.0.0.5943核心型绿色精简版.7z
-│   ├── SogouInputv12.0(12.0.0.5943)_星空不寂寞精简版.exe
-│   ├── SogouInputv6.7.0.0747大水牛去广告优化屏蔽升级版v2.exe
-│   ├── SogouInput医生版_1.1.0.1278_精简优化版.exe
+│   ├── SogouInput_v11.7a(11.7.0.5464)_xingkbjm_lite.exe
+│   ├── SogouInput_v11.8a(11.8.0.5496)_xingkbjm_lite.exe
+│   ├── SogouInput_v11.9.0.5688_zd423_noad_lite.exe
+│   ├── SogouInput_v11.9.0.5784_zd423_noad_lite.exe
+│   ├── SogouInput_v11.9a(11.9.0.5687)_xingkbjm_lite.exe
+│   ├── SogouInput_v11.9d(11.9.0.5784)_xingkbjm_lite.exe
 │   ├── SogouWBInput_5.4.0.2538_qiuquan_noad-20220317.exe
-│   └── SogouWBInputv5.5b(5.5.0.2580)_星空不寂寞去广告版.exe
+│   ├── SogouWBInput_v5.4b(5.4.0.2538)_xingkbjm_noad.exe
+│   ├── SogouWBInput_v5.5a(5.5.0.2552)_xingkbjm_noad.exe
+│   ├── 搜狗五笔输入法_5.5.0.2580_去广告升级版_-_20220520.exe
+│   ├── 搜狗五笔输入法_v5.5b(5.5.0.2580)_星空不寂寞去广告版.exe
+│   ├── 搜狗拼音输入法_v12.0(12.0.0.5943)_星空不寂寞精简版.exe
+│   ├── 搜狗输入法v10.5.0.4737去广告精简优化版.exe
+│   ├── 搜狗输入法v10.5b(4737)绿色精简版WinXP.7z
+│   ├── 搜狗输入法v12.0.0.5943去广告精简优化版.exe
+│   ├── 搜狗输入法v12.0(5943)核心型绿色精简版.7z
+│   ├── 搜狗输入法v6.7i(0747)大水牛精简优化版v2.exe
+│   └── 搜狗输入法医生版_1.1.0.1278_精简优化版.exe
 ├── tencent
 │   ├── QQ_9.5.5_(28104)_Installer.rar
 │   ├── QQ_9.5.5_(28104)_Installer_With_NtrQQ_7.1.2.rar
@@ -381,4 +381,4 @@
     ├── Xshell_v7.0.0109.7z
     └── 看图王_v10.9.0.9730_x64_去广告绿色版.exe
 
-23 directories, 358 files
+22 directories, 359 files
