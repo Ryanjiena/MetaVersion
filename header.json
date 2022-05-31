@@ -32,8 +32,8 @@
     {
         "name": "youdao-dict",
         "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
-        "redirect": "http://download.ydstatic.cn/cidian/static/8.10/20220509/YoudaoDictSetup.exe",
-        "version_redirect": "8.10.8.0#http://download.ydstatic.cn/cidian/static/8.10/20220509/YoudaoDictSetup.exe",
+        "redirect": "http://download.ydstatic.cn/cidian/static/9.0/20220531/YoudaoDictSetup.exe",
+        "version_redirect": "8.10.8.0#http://download.ydstatic.cn/cidian/static/9.0/20220531/YoudaoDictSetup.exe",
         "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
