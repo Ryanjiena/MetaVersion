@@ -40,6 +40,7 @@
 │   ├── FormatFactory_5.11.0_64bit_Green.7z
 │   ├── PAssist_Tech_9.7.0_Green.zip
 │   ├── PDF-XChange_Editor_Plus_9.3.361.0_Green.7z
+│   ├── SoftCnKiller_2.67.7z
 │   ├── Thunder7_7.2.13.3882_Ayu.7z
 │   ├── UninstallTool_3.5.10.5670_Portable.7z
 │   ├── WiseCare365_6.1.4.601_Green.7z
@@ -56,6 +57,7 @@
 │   └── TotalCMD_v9.51_x86_Final_Plus_20200923.7z
 ├── jdk
 │   ├── jdk-11.0.13
+│   │   ├── jdk11.0.13-checksum.txt
 │   │   ├── jdk-11.0.13_linux-x64_bin.deb
 │   │   ├── jdk-11.0.13_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.13_linux-x64_bin.tar.gz
@@ -64,6 +66,7 @@
 │   │   ├── jdk-11.0.13_windows-x64_bin.exe
 │   │   └── jdk-11.0.13_windows-x64_bin.zip
 │   ├── jdk-11.0.14
+│   │   ├── Checksum-JDK11.0.14.txt
 │   │   ├── jdk-11.0.14_linux-x64_bin.deb
 │   │   ├── jdk-11.0.14_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.14_linux-x64_bin.tar.gz
@@ -71,7 +74,26 @@
 │   │   ├── jdk-11.0.14_solaris-sparcv9_bin.tar.gz
 │   │   ├── jdk-11.0.14_windows-x64_bin.exe
 │   │   └── jdk-11.0.14_windows-x64_bin.zip
+│   ├── jdk-11.0.15
+│   │   ├── Checksum_JDk11.0.15.txt
+│   │   ├── jdk-11.0.15_linux-x64_bin.deb
+│   │   ├── jdk-11.0.15_linux-x64_bin.rpm
+│   │   ├── jdk-11.0.15_linux-x64_bin.tar.gz
+│   │   ├── jdk-11.0.15_osx-x64_bin.dmg
+│   │   ├── jdk-11.0.15_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.15_windows-x64_bin.exe
+│   │   └── jdk-11.0.15_windows-x64_bin.zip
+│   ├── jdk-11.0.15.1
+│   │   ├── Checksum_JDK11.0.15.1.txt
+│   │   ├── jdk-11.0.15.1_linux-x64_bin.deb
+│   │   ├── jdk-11.0.15.1_linux-x64_bin.rpm
+│   │   ├── jdk-11.0.15.1_linux-x64_bin.tar.gz
+│   │   ├── jdk-11.0.15.1_osx-x64_bin.dmg
+│   │   ├── jdk-11.0.15.1_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.15.1_windows-x64_bin.exe
+│   │   └── jdk-11.0.15.1_windows-x64_bin.zip
 │   ├── jdk-8u311
+│   │   ├── jdk8u311-checksum.txt
 │   │   ├── jdk-8u311-linux-i586.rpm
 │   │   ├── jdk-8u311-linux-i586.tar.gz
 │   │   ├── jdk-8u311-linux-x64.rpm
@@ -83,6 +105,7 @@
 │   │   ├── jdk-8u311-windows-x64.exe
 │   │   └── jdk-8u311-windows-x64.zip
 │   ├── jdk-8u321
+│   │   ├── Checksum-JDK8u321.txt
 │   │   ├── jdk-8u321-linux-i586.rpm
 │   │   ├── jdk-8u321-linux-i586.tar.gz
 │   │   ├── jdk-8u321-linux-x64.rpm
@@ -93,25 +116,95 @@
 │   │   ├── jdk-8u321-windows-i586.zip
 │   │   ├── jdk-8u321-windows-x64.exe
 │   │   └── jdk-8u321-windows-x64.zip
-│   └── sha256sum
+│   ├── jdk-8u331
+│   │   ├── Checksum_JDk8u331.txt
+│   │   ├── jdk-8u311-linux-i586.rpm
+│   │   ├── jdk-8u331-linux-i586.rpm
+│   │   ├── jdk-8u331-linux-i586.tar.gz
+│   │   ├── jdk-8u331-linux-x64.rpm
+│   │   ├── jdk-8u331-linux-x64.tar.gz
+│   │   ├── jdk-8u331-macosx-x64.dmg
+│   │   ├── jdk-8u331-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u331-windows-i586.exe
+│   │   ├── jdk-8u331-windows-i586.zip
+│   │   ├── jdk-8u331-windows-x64.exe
+│   │   └── jdk-8u331-windows-x64.zip
+│   ├── jdk-8u333
+│   │   ├── Checksum_JDK8u333.txt
+│   │   ├── jdk-8u333-linux-i586.rpm
+│   │   ├── jdk-8u333-linux-i586.tar.gz
+│   │   ├── jdk-8u333-linux-x64.rpm
+│   │   ├── jdk-8u333-linux-x64.tar.gz
+│   │   ├── jdk-8u333-macosx-x64.dmg
+│   │   ├── jdk-8u333-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u333-windows-i586.exe
+│   │   ├── jdk-8u333-windows-i586.zip
+│   │   ├── jdk-8u333-windows-x64.exe
+│   │   └── jdk-8u333-windows-x64.zip
+│   ├── jre-8u311
+│   │   ├── jre8u311-checksum.txt
+│   │   ├── jre-8u311-linux-x64.rpm
+│   │   ├── jre-8u311-linux-x64.tar.gz
+│   │   ├── jre-8u311-macosx-x64.dmg
+│   │   ├── jre-8u311-solaris-sparcv9.tar.gz
+│   │   ├── jre-8u311-windows-i586.exe
+│   │   └── jre-8u311-windows-x64.exe
+│   ├── jre-8u321
+│   │   ├── Checksum-JRE8u321.txt
+│   │   ├── jre-8u321-linux-i586.tar.gz
+│   │   ├── jre-8u321-linux-x64.rpm
+│   │   ├── jre-8u321-linux-x64.tar.gz
+│   │   ├── jre-8u321-macosx-x64.dmg
+│   │   ├── jre-8u321-windows-i586.exe
+│   │   └── jre-8u321-windows-x64.exe
+│   ├── jre-8u331
+│   │   ├── Checksum_JRE8u331.txt
+│   │   ├── jre-8u331-linux-i586.rpm
+│   │   ├── jre-8u331-linux-i586.tar.gz
+│   │   ├── jre-8u331-linux-x64.rpm
+│   │   ├── jre-8u331-linux-x64.tar.gz
+│   │   ├── jre-8u331-macosx-x64.dmg
+│   │   ├── jre-8u331-solaris-sparcv9.tar.gz
+│   │   ├── jre-8u331-windows-i586.exe
+│   │   └── jre-8u331-windows-x64.exe
+│   └── jre-8u333
+│       ├── Checksum_JRE8u333.txt
+│       ├── jre-8u333-linux-i586.rpm
+│       ├── jre-8u333-linux-i586.tar.gz
+│       ├── jre-8u333-linux-x64.rpm
+│       ├── jre-8u333-linux-x64.tar.gz
+│       ├── jre-8u333-macosx-x64.dmg
+│       ├── jre-8u333-solaris-sparcv9.tar.gz
+│       ├── jre-8u333-windows-i586.exe
+│       └── jre-8u333-windows-x64.exe
 ├── lrepacks
 │   ├── aida64_6.70.6000.zip
 │   ├── aimp_5.02.2370_ext.zip
+│   ├── aomei_partition__istant_9.8.0_te.zip
 │   ├── ccleaner_pro_5.92.9652.zip
 │   ├── duplicate_cleaner_5.15.0.zip
 │   ├── foldersizes_9.5.384.zip
 │   ├── hibit_uninstaller_2.7.62.zip
+│   ├── icecream_pdf_candy_desktop_2.93.zip
 │   ├── iobit_driver_booster_9.3.0.207.zip
 │   ├── iobit_uninstaller_11.4.0.2.zip
 │   ├── magix_vegas_19.0.550.zip
 │   ├── mkvtoolnix_67.0.0.zip
 │   ├── mp3tag_3.14.zip
 │   ├── niubi_partition_editor_te_7.8.7.zip
+│   ├── potplayer_1.7.21280_x86.zip
 │   ├── potplayer_1.7.21620_x64.zip
 │   ├── potplayer_1.7.21620_x86.zip
+│   ├── potplayer_1.7.21631_x64.zip
+│   ├── potplayer_1.7.21631_x86.zip
 │   ├── poweriso_8.2.zip
 │   ├── process_l_o_10.4.6.20.zip
+│   ├── regcool_1.320.zip
 │   ├── rwipe_and_clean_20.0.2353.zip
+│   ├── smartftp_client_10.0.2971.zip
+│   ├── smartftp_client_10.0.2977.zip
+│   ├── smartftp_client_8.0.2359.10.zip
+│   ├── smartftp_client_9.0.2860.zip
 │   ├── spotify_1.1.83.956.zip
 │   ├── startback_aio_1.0.53.1.zip
 │   ├── tunepat_spotify_converter_1.7.3.zip
@@ -128,6 +221,7 @@
 │   ├── CorelProductsKeygen2021.03.7z
 │   ├── DiskGenius_5.4.2.1239_Pro_Chs_x64.7z
 │   ├── fast-request-2022.1.8-ckd-1b823ac64f4c0d68f85da086f6ae36ff57178e51.zip
+│   ├── ja-netfilter-2022.2.0.zip
 │   ├── ja-netfilter-all-20220103-4d502075179cd4a69ff30578e33591b46aecf6ea.zip
 │   ├── ja-netfilter-all-20220108-cdb057b5ae094402527dd51fe4944fb5ea54f117.zip
 │   ├── ja-netfilter-all-20220114-69d9b13b2d821bb900848b4cd9216b2b2c11bfd9.zip
@@ -219,6 +313,7 @@
 │   ├── 搜狗拼音输入法_v10.5b(10.5.0.4737)_星空不寂寞去广告版.exe
 │   ├── 搜狗拼音输入法_v11.9e(11.9.0.5877)_星空不寂寞精简版.exe
 │   ├── 搜狗拼音输入法_v12.0(12.0.0.5943)_星空不寂寞精简版.exe
+│   ├── 搜狗拼音输入法_v12.1(12.1.0.6000)_星空不寂寞精简版.exe
 │   ├── 搜狗拼音输入法_v9.8b(9.8.0.3746)_星空不寂寞去广告版.exe
 │   ├── 搜狗输入法v10.5.0.4737去广告精简优化版.exe
 │   ├── 搜狗输入法v10.5b(4737)绿色精简版WinXP.7z
@@ -226,6 +321,7 @@
 │   ├── 搜狗输入法v11.9e(5877)核心型绿色精简版.7z
 │   ├── 搜狗输入法v12.0.0.5943去广告精简优化版.exe
 │   ├── 搜狗输入法v12.0(5943)核心型绿色精简版.7z
+│   ├── 搜狗输入法v12.1.0.6000去广告精简优化版.exe
 │   ├── 搜狗输入法v9.8b(3746)去广告精简优化版.exe
 │   └── 搜狗输入法医生版_1.1.0.1278_精简优化版.exe
 ├── tencent
@@ -327,6 +423,8 @@
 │   ├── IDM-Trial-Reset.exe
 │   ├── IDM_v6.40.11_Repack_Elchupacabra.7z
 │   ├── internet_download_manager_6.40.11.zip
+│   ├── internet_download_manager_6.41.1.zip
+│   ├── internet_download_manager_6.41.2.zip
 │   ├── LuDaShi_v5.21.1300_NoAD_Green.7z
 │   ├── MenuMgr_v1.2_NoNet.7z
 │   ├── MyHash_1.4.7_Final_drag0n.7z
@@ -353,6 +451,7 @@
 │   ├── vcredist_dreamcast_2022.03.17.exe
 │   └── vcredist-dreamcast_2022.04.09.exe
 └── zd423
+    ├── 360Chrome_21.0.1110.0_x64_Stable.exe
     ├── AIMP_5.01.2358_Green.7z
     ├── bandicam_5.1.1.1837.zip
     ├── bandicam_5.4.2.1921.zip
@@ -365,6 +464,8 @@
     ├── CCleaner_Pro_v5.88.9346_x64_Plus.7z
     ├── CloudMusic_v2.9.6.199543.7z
     ├── CloudMusic_v2.9.8.199759.7z
+    ├── CloudMusic_v2.9.9.199909.7z
+    ├── DriverTalent_8.0.9.50_Green.7z
     ├── FinalShell_3.9.3.4_Green.7z
     ├── GifCam_v6.5_Chs.7z
     ├── GIF_Movie_Gear_v4.3.0.7z
@@ -379,6 +480,8 @@
     ├── TotalCMD.v10.x.license.rar
     ├── TTPlayer_v5.7.9.7z
     ├── UWT5.zip
+    ├── WeChat_3.3.0.115_Green.7z
+    ├── Wechat_3.7.0.27_Green.7z
     ├── wumt_v22.04.2022.zip
     ├── Xftp_v7.0.0088.7z
     ├── Xftp_v7.0.0091.7z
@@ -396,6 +499,8 @@
     ├── Xshell_v7.0.0098.7z
     ├── Xshell_v7.0.0099.7z
     ├── Xshell_v7.0.0109.7z
+    ├── 微信怀旧版_v3.3.0.115_多开防撤回绿色版.exe
+    ├── 微信正式版_v3.7.0.29_多开防撤回绿色版.exe
     └── 看图王_v10.9.0.9730_x64_去广告绿色版.exe
 
-23 directories, 375 files
+31 directories, 472 files
