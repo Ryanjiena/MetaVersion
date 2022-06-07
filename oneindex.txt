@@ -31,7 +31,6 @@
 │   ├── Flash_34.0.0.242_Patch.7z
 │   ├── MusicTag_v1.0.8.0.7z
 │   ├── Photoshop.CC_21.1.1.121.CHS_X64_repaik.7z
-│   ├── QQ9.6.1.28732精简优化版-By雪域.7z
 │   ├── QQScreenShotV2.5.7z
 │   ├── screencapture_v1.0.0.220.7z
 │   ├── SW_DVD9_NTRL_SQL_Svr_Standard_Edtn_2017_64Bit_ChnSimp_OEM_VL_X21-56944.ISO
@@ -43,40 +42,6 @@
 │   ├── 投屏控制器32位_V3.1.0.7z
 │   ├── 投屏控制器64位_V3.1.0.7z
 │   └── 搞机工具箱V8.41.zip
-├── gh
-│   ├── Antdownload_v3.0.3.7z
-│   ├── Antdownload_v3.0.5.zip
-│   ├── Antdownload_v3.0.6.7z
-│   ├── CheatEngine_7.4_Green.7z
-│   ├── FileZilla_Pro_3.59.0_64bit_Green.7z
-│   ├── FormatFactory_5.11.0_64bit_Green.7z
-│   ├── gh
-│   │   ├── AIDA64_6.70.6000_Business_Portable.7z
-│   │   ├── Beyond_Compare_4.4.1.26165_64bit_Green.7z
-│   │   ├── Beyond_Compare_4.4.2.26348_64bit_Green.7z
-│   │   ├── BitComet_1.85_Green.7z
-│   │   ├── BitComet_1.89_Green.7z
-│   │   ├── CCleaner_v6.00.9727_Business_Portable.7z
-│   │   ├── Clover_3.5.6_Green.7z
-│   │   ├── Google_Earth_7.3.4.8642_64bit_Protable.7z
-│   │   ├── IObitUninstaller_11.5.0.3_Green.7z
-│   │   ├── iqiyi_9.5.157.5946_Green.7z
-│   │   ├── PicPick_6.1.2.0_Green.7z
-│   │   ├── RevoUninstaller_5.0.0_Portable.7z
-│   │   ├── ShanaEncoder_5.3.1.1_Green.7z
-│   │   ├── SublimeText_4126_64bit_Green.7z
-│   │   ├── TotalUninstall_7.3.1.641_64bit_Portable_v3.7z
-│   │   ├── uTorrent_3.5.5.46276_Portable.7z
-│   │   └── YYSpeak_9.6.0.0_Green.7z
-│   ├── PAssist_Tech_9.7.0_Green.zip
-│   ├── PDF-XChange_Editor_Plus_9.3.361.0_Green.7z
-│   ├── SoftCnKiller_2.67.7z
-│   ├── Thunder7_7.2.13.3882_Ayu.7z
-│   ├── UninstallTool_3.5.10.5670_Portable.7z
-│   ├── WiseCare365_6.1.4.601_Green.7z
-│   ├── WiseCare365_6.1.6.603_Green.7z
-│   ├── WiseCare365_6.2.1.607_Green.7z
-│   └── WPS_20201205.7z
 ├── iyoung
 │   ├── TCCEE_x64_v7.0a(10.00).7z
 │   ├── TCCEE_x64_v7.0a(10.00).exe
@@ -282,6 +247,8 @@
 ├── qiuquan
 │   ├── 360CSE_13.5.2001.0.FLASH_QiuQuan.7z
 │   ├── 360CSE_13.5.2001.0_QiuQuan.7z
+│   ├── 360SE_13.1.6000.0_FLASH_QiuQuan.exe
+│   ├── 360SE_13.1.6000.0_QiuQuan.exe
 │   ├── 360ZIP_4.0.0.1410_QiuQuan.7z
 │   ├── AcmeCAD_8.10.2.1536_QiuQuan.7z
 │   ├── Adobe_Flash_Player_34.0.0.242_（ActiveX___NPAPI___PPAPI）_-_20220516.zip
@@ -361,6 +328,9 @@
 │   ├── 搜狗输入法v9.8b(3746)去广告精简优化版.exe
 │   └── 搜狗输入法医生版_1.1.0.1278_精简优化版.exe
 ├── tencent
+│   ├── Adobe_Flash_Player_ActiveX_34.0.0.242_特别版.exe
+│   ├── Adobe_Flash_Player_NPAPI_34.0.0.242_特别版.exe
+│   ├── Adobe_Flash_Player_PPAPI_34.0.0.242_特别版.exe
 │   ├── old
 │   │   ├── QQ_9.5.5_(28104)_Installer.rar
 │   │   ├── QQ_9.5.5_(28104)_Installer_With_NtrQQ_7.1.2.rar
@@ -374,17 +344,24 @@
 │   │   ├── QQ_9.5.9_(28625)_Installer_With_NtrQQ_7.1.2.rar
 │   │   ├── QQ_9.5.9_(28625)_Portable.7z
 │   │   └── QQ_9.5.9_(28625)_Portable_With_NtrQQ_7.1.2.7z
+│   ├── QQ9.6.1.28732精简优化版-By雪域.7z
 │   ├── QQGuild_1.0.10.2583.exe
 │   ├── QQGuild_1.0.11.3386.exe
+│   ├── QQ频道_QQGuild_1.3.1.3847.exe
 │   ├── TIM_3.3.9.22051_Green.7z
 │   ├── WeChat_3.6.5.16_QiuQuan.exe
 │   ├── WeChat_3.7.0.26_QiuQuan.exe
+│   ├── WeChat_3.7.0.29_QiuQuan.exe
 │   ├── WeChat_v3.4.5.45_QiuQuan_20211230.exe
 │   ├── WeChat_v3.5.0.29_QiuQuan_20220112.exe
 │   ├── 腾讯QQ_9.6.0.28707_安装版.rar
 │   ├── 腾讯QQ_9.6.0.28707_安装版_With_NtrQQ_7.1.2.rar
 │   ├── 腾讯QQ_9.6.0.28707_绿色版.7z
-│   └── 腾讯QQ_9.6.0.28707_绿色版_With_NtrQQ_7.1.2.7z
+│   ├── 腾讯QQ_9.6.0.28707_绿色版_With_NtrQQ_7.1.2.7z
+│   ├── 腾讯QQ_9.6.1.28732_安装版.rar
+│   ├── 腾讯QQ_9.6.1.28732_安装版_With_NtrQQ_7.1.2.rar
+│   ├── 腾讯QQ_9.6.1.28732_绿色版.7z
+│   └── 腾讯QQ_9.6.1.28732_绿色版_With_NtrQQ_7.1.2.7z
 ├── tete009
 │   ├── firefox-101.0-2022051922.en-US.win32-tete009-sse2-pgo.7z
 │   ├── firefox-101.0-2022051922.en-US.win32-tete009-x64-pgo.7z
@@ -504,7 +481,12 @@
     ├── Adobe_Photoshop_CS5_Green.exe
     ├── Adobe_Photoshop_CS6.7z
     ├── Adobe_Photoshop_CS6_x64.7z
+    ├── AdvancedInstaller_v19.5_CHS_Portable.7z
+    ├── AIDA64_6.70.6000_Business_Portable.7z
     ├── AIMP_5.01.2358_Green.7z
+    ├── Antdownload_v3.0.3.7z
+    ├── Antdownload_v3.0.5.zip
+    ├── Antdownload_v3.0.6.7z
     ├── bandicam_5.1.1.1837.zip
     ├── bandicam_5.4.2.1921.zip
     ├── Bandicam_v5.1.1.1837_x32.7z
@@ -513,29 +495,61 @@
     ├── Bandizip_v7.xx_x32-x64_Patch_20201104.7z
     ├── bdzshl.x64.dll
     ├── bdzshl.x86.dll
+    ├── Beyond_Compare_4.4.1.26165_64bit_Green.7z
+    ├── Beyond_Compare_4.4.2.26348_64bit_Green.7z
+    ├── BitComet_1.85_Green.7z
+    ├── BitComet_1.89_Green.7z
     ├── CCleaner_Pro_v5.88.9346_x64_Plus.7z
+    ├── CCleaner_v6.00.9727_Business_Portable.7z
+    ├── CheatEngine_7.4_Green.7z
     ├── CloudMusic_v2.9.6.199543.7z
     ├── CloudMusic_v2.9.8.199759.7z
     ├── CloudMusic_v2.9.9.199909.7z
+    ├── Clover_3.5.6_Green.7z
+    ├── DocBox_2.10.36_Green.7z
+    ├── DriverBoosterPro_v9.3.0.209_Mod_Portable.7z
     ├── DriverTalent_8.0.9.50_Green.7z
+    ├── FileZilla_Pro_3.59.0_64bit_Green.7z
     ├── FinalShell_3.9.3.4_Green.7z
+    ├── flokk-v1.0.1-signed.zip
+    ├── FormatFactory_5.11.0_64bit_Green.7z
+    ├── FoxitPhantomPDF_10.1.6.37749_Green.7z
     ├── GifCam_v6.5_Chs.7z
     ├── GIF_Movie_Gear_v4.3.0.7z
+    ├── Google_Earth_7.3.4.8642_64bit_Protable.7z
+    ├── IObitUninstaller_11.5.0.3_Green.7z
+    ├── iqiyi_9.5.157.5946_Green.7z
     ├── KuWo_v9.1.1.6-W4_NoAD_Portable.7z
     ├── KwMusic_9.1.1.7_Green.7z
     ├── LICEcap_Portable_Chs_v1.28.7z
     ├── MusicTools_v1.9.5.13.zip
     ├── MusicTools v1.9.6.1.7z
+    ├── PAssist_Tech_9.7.0_Green.zip
+    ├── PDF-XChange_Editor_Plus_9.3.361.0_Green.7z
+    ├── PicPick_6.1.2.0_Green.7z
     ├── PS2022PS2021神经网络滤镜离线安装包22年1月版.exe
     ├── QQGame_v5.39.57734.7z
     ├── QQMusic_v18.44_NoAD_Portable.7z
     ├── QQMusic_v18.47_NoAD_Portable.7z
     ├── QQ音乐_v18.59_去广告绿色版.7z
+    ├── RevoUninstaller_5.0.0_Portable.7z
+    ├── ShanaEncoder_5.3.1.1_Green.7z
+    ├── SmartDriverBackup_v2.11.0.0.exe
+    ├── SoftCnKiller_2.67.7z
+    ├── SublimeText_4126_64bit_Green.7z
+    ├── Thunder7_7.2.13.3882_Ayu.7z
     ├── TotalCMD.v10.x.license.rar
+    ├── TotalUninstall_7.3.1.641_64bit_Portable_v3.7z
     ├── TTPlayer_v5.7.9.7z
+    ├── UninstallTool_3.5.10.5670_Portable.7z
+    ├── uTorrent_3.5.5.46276_Portable.7z
     ├── UWT5.zip
     ├── WeChat_3.3.0.115_Green.7z
     ├── Wechat_3.7.0.27_Green.7z
+    ├── WiseCare365_6.1.4.601_Green.7z
+    ├── WiseCare365_6.1.6.603_Green.7z
+    ├── WiseCare365_6.2.1.607_Green.7z
+    ├── WPS_20201205.7z
     ├── wumt_v22.04.2022.zip
     ├── Xftp_v7.0.0088.7z
     ├── Xftp_v7.0.0091.7z
@@ -553,11 +567,17 @@
     ├── Xshell_v7.0.0098.7z
     ├── Xshell_v7.0.0099.7z
     ├── Xshell_v7.0.0109.7z
+    ├── YoudaoDict_8.9.6.0_Green.7z
+    ├── YYSpeak_9.6.0.0_Green.7z
     ├── 微信怀旧版_v3.3.0.115_多开防撤回绿色版.exe
     ├── 微信正式版_v3.7.0.29_多开防撤回绿色版.exe
     ├── 暴风影音16_v9.04.1029.1111_多开绿色.exe
+    ├── 欧路词典PC版_12.5.0.433_Green.7z
     ├── 看图王_v10.9.0.9730_x64_去广告绿色版.exe
     ├── 阿里旺旺_10.01.03C_Green.7z
-    └── 阿里旺旺_v9.12.12C_去广告绿色版v2.exe
+    ├── 阿里旺旺_v9.12.12C_去广告绿色版v2.exe
+    ├── 驱动人生海外版DriverTalent_v8.0.9.50_Chs.exe
+    ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
+    └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-33 directories, 527 files
+31 directories, 549 files
