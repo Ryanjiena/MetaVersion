@@ -2,6 +2,28 @@
     "github": {
         "silent": true
     },
+    "rewrites": [
+        {
+            "source": "/chrome",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
+        },
+        {
+            "source": "/msedge-stable",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-stable.json"
+        },
+        {
+            "source": "/msedge-beta",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-beta.json"
+        },
+        {
+            "source": "/msedge-dev",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-dev.json"
+        },
+        {
+            "source": "/msedge-canary",
+            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
+        }
+    ],
     "redirects": [
         {
             "source": "/msedge-stable-win-ARM64",
@@ -74,28 +96,6 @@
         {
             "source": "/(.*)",
             "destination": "https://github.com/Ryanjiena/MetaVersion"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/chrome",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json"
-        },
-        {
-            "source": "/msedge-stable",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-stable.json"
-        },
-        {
-            "source": "/msedge-beta",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-beta.json"
-        },
-        {
-            "source": "/msedge-dev",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-dev.json"
-        },
-        {
-            "source": "/msedge-canary",
-            "destination": "https://github.com/Ryanjiena/MetaVersion/raw/main/msedge-canary.json"
         }
     ]
 }
