@@ -20,6 +20,8 @@
 │   ├── BComparePortable_v4.4.1.26165_20211220.7z
 │   └── UltraISO_9.7.6.3829_V2_DJLH.Portable.7z
 ├── else
+│   ├── 2345Pic_10.9.0.9730_优化版_X64.7z
+│   ├── 2345Pic_10.9.0.9730_优化版_X86.7z
 │   ├── Adobe_Flash_Player一剑全清__V4.7z
 │   ├── Appbench_v1.0.zip
 │   ├── CareUEyes_2.1.12.0_Portable.7z
@@ -56,67 +58,66 @@
 │   └── TotalCMD_v9.51_x86_Final_Plus_20200923.7z
 ├── jdk
 │   ├── jdk-11.0.13
-│   │   ├── jdk11.0.13-checksum.txt
 │   │   ├── jdk-11.0.13_linux-x64_bin.deb
 │   │   ├── jdk-11.0.13_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.13_linux-x64_bin.tar.gz
 │   │   ├── jdk-11.0.13_osx-x64_bin.dmg
 │   │   ├── jdk-11.0.13_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.13.txt
 │   │   ├── jdk-11.0.13_windows-x64_bin.exe
 │   │   └── jdk-11.0.13_windows-x64_bin.zip
 │   ├── jdk-11.0.14
-│   │   ├── Checksum-JDK11.0.14.txt
 │   │   ├── jdk-11.0.14_linux-x64_bin.deb
 │   │   ├── jdk-11.0.14_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.14_linux-x64_bin.tar.gz
 │   │   ├── jdk-11.0.14_osx-x64_bin.dmg
 │   │   ├── jdk-11.0.14_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.14.txt
 │   │   ├── jdk-11.0.14_windows-x64_bin.exe
 │   │   └── jdk-11.0.14_windows-x64_bin.zip
 │   ├── jdk-11.0.15
-│   │   ├── Checksum_JDk11.0.15.txt
 │   │   ├── jdk-11.0.15_linux-x64_bin.deb
 │   │   ├── jdk-11.0.15_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.15_linux-x64_bin.tar.gz
 │   │   ├── jdk-11.0.15_osx-x64_bin.dmg
 │   │   ├── jdk-11.0.15_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.15.txt
 │   │   ├── jdk-11.0.15_windows-x64_bin.exe
 │   │   └── jdk-11.0.15_windows-x64_bin.zip
 │   ├── jdk-11.0.15.1
-│   │   ├── Checksum_JDK11.0.15.1.txt
 │   │   ├── jdk-11.0.15.1_linux-x64_bin.deb
 │   │   ├── jdk-11.0.15.1_linux-x64_bin.rpm
 │   │   ├── jdk-11.0.15.1_linux-x64_bin.tar.gz
 │   │   ├── jdk-11.0.15.1_osx-x64_bin.dmg
 │   │   ├── jdk-11.0.15.1_solaris-sparcv9_bin.tar.gz
+│   │   ├── jdk-11.0.15.1.txt
 │   │   ├── jdk-11.0.15.1_windows-x64_bin.exe
 │   │   └── jdk-11.0.15.1_windows-x64_bin.zip
 │   ├── jdk-8u311
-│   │   ├── jdk8u311-checksum.txt
 │   │   ├── jdk-8u311-linux-i586.rpm
 │   │   ├── jdk-8u311-linux-i586.tar.gz
 │   │   ├── jdk-8u311-linux-x64.rpm
 │   │   ├── jdk-8u311-linux-x64.tar.gz
 │   │   ├── jdk-8u311-macosx-x64.dmg
 │   │   ├── jdk-8u311-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u311.txt
 │   │   ├── jdk-8u311-windows-i586.exe
 │   │   ├── jdk-8u311-windows-i586.zip
 │   │   ├── jdk-8u311-windows-x64.exe
 │   │   └── jdk-8u311-windows-x64.zip
 │   ├── jdk-8u321
-│   │   ├── Checksum-JDK8u321.txt
 │   │   ├── jdk-8u321-linux-i586.rpm
 │   │   ├── jdk-8u321-linux-i586.tar.gz
 │   │   ├── jdk-8u321-linux-x64.rpm
 │   │   ├── jdk-8u321-linux-x64.tar.gz
 │   │   ├── jdk-8u321-macosx-x64.dmg
 │   │   ├── jdk-8u321-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u321.txt
 │   │   ├── jdk-8u321-windows-i586.exe
 │   │   ├── jdk-8u321-windows-i586.zip
 │   │   ├── jdk-8u321-windows-x64.exe
 │   │   └── jdk-8u321-windows-x64.zip
 │   ├── jdk-8u331
-│   │   ├── Checksum_JDk8u331.txt
 │   │   ├── jdk-8u311-linux-i586.rpm
 │   │   ├── jdk-8u331-linux-i586.rpm
 │   │   ├── jdk-8u331-linux-i586.tar.gz
@@ -124,56 +125,57 @@
 │   │   ├── jdk-8u331-linux-x64.tar.gz
 │   │   ├── jdk-8u331-macosx-x64.dmg
 │   │   ├── jdk-8u331-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u331.txt
 │   │   ├── jdk-8u331-windows-i586.exe
 │   │   ├── jdk-8u331-windows-i586.zip
 │   │   ├── jdk-8u331-windows-x64.exe
 │   │   └── jdk-8u331-windows-x64.zip
 │   ├── jdk-8u333
-│   │   ├── Checksum_JDK8u333.txt
 │   │   ├── jdk-8u333-linux-i586.rpm
 │   │   ├── jdk-8u333-linux-i586.tar.gz
 │   │   ├── jdk-8u333-linux-x64.rpm
 │   │   ├── jdk-8u333-linux-x64.tar.gz
 │   │   ├── jdk-8u333-macosx-x64.dmg
 │   │   ├── jdk-8u333-solaris-sparcv9.tar.gz
+│   │   ├── jdk-8u333.txt
 │   │   ├── jdk-8u333-windows-i586.exe
 │   │   ├── jdk-8u333-windows-i586.zip
 │   │   ├── jdk-8u333-windows-x64.exe
 │   │   └── jdk-8u333-windows-x64.zip
 │   ├── jre-8u311
-│   │   ├── jre8u311-checksum.txt
 │   │   ├── jre-8u311-linux-x64.rpm
 │   │   ├── jre-8u311-linux-x64.tar.gz
 │   │   ├── jre-8u311-macosx-x64.dmg
 │   │   ├── jre-8u311-solaris-sparcv9.tar.gz
+│   │   ├── jre-8u311.txt
 │   │   ├── jre-8u311-windows-i586.exe
 │   │   └── jre-8u311-windows-x64.exe
 │   ├── jre-8u321
-│   │   ├── Checksum-JRE8u321.txt
 │   │   ├── jre-8u321-linux-i586.tar.gz
 │   │   ├── jre-8u321-linux-x64.rpm
 │   │   ├── jre-8u321-linux-x64.tar.gz
 │   │   ├── jre-8u321-macosx-x64.dmg
+│   │   ├── jre-8u321.txt
 │   │   ├── jre-8u321-windows-i586.exe
 │   │   └── jre-8u321-windows-x64.exe
 │   ├── jre-8u331
-│   │   ├── Checksum_JRE8u331.txt
 │   │   ├── jre-8u331-linux-i586.rpm
 │   │   ├── jre-8u331-linux-i586.tar.gz
 │   │   ├── jre-8u331-linux-x64.rpm
 │   │   ├── jre-8u331-linux-x64.tar.gz
 │   │   ├── jre-8u331-macosx-x64.dmg
 │   │   ├── jre-8u331-solaris-sparcv9.tar.gz
+│   │   ├── jre-8u331.txt
 │   │   ├── jre-8u331-windows-i586.exe
 │   │   └── jre-8u331-windows-x64.exe
 │   └── jre-8u333
-│       ├── Checksum_JRE8u333.txt
 │       ├── jre-8u333-linux-i586.rpm
 │       ├── jre-8u333-linux-i586.tar.gz
 │       ├── jre-8u333-linux-x64.rpm
 │       ├── jre-8u333-linux-x64.tar.gz
 │       ├── jre-8u333-macosx-x64.dmg
 │       ├── jre-8u333-solaris-sparcv9.tar.gz
+│       ├── jre-8u333.txt
 │       ├── jre-8u333-windows-i586.exe
 │       └── jre-8u333-windows-x64.exe
 ├── lrepacks
@@ -471,6 +473,7 @@
 │   ├── vcredist_dreamcast_2022.03.17.exe
 │   └── vcredist-dreamcast_2022.04.09.exe
 └── zd423
+    ├── 2345pic_10.9.0.9760_Green.7z
     ├── 360Chrome_21.0.1110.0_x64_Stable.exe
     ├── Adobe_Photoshop_2020_v21.2.12.215_2021-09.1.7z
     ├── Adobe_Photoshop_2020_v21.2.12.215_2021-09.7z
@@ -510,6 +513,7 @@
     ├── CloudMusic_v2.9.9.199909.7z
     ├── Clover_3.5.6_Green.7z
     ├── DocBox_2.10.36_Green.7z
+    ├── DriverBoosterPro_9.4.0.233_Portable.7z
     ├── DriverBoosterPro_v9.3.0.209_Mod_Portable.7z
     ├── DriverTalent_8.0.9.50_Green.7z
     ├── eCloud_6.4.0_Green.7z
@@ -551,6 +555,7 @@
     ├── UWT5.zip
     ├── WeChat_3.3.0.115_Green.7z
     ├── Wechat_3.7.0.27_Green.7z
+    ├── Wechat_3.7.0.30_Green.7z
     ├── WiseCare365_6.1.4.601_Green.7z
     ├── WiseCare365_6.1.6.603_Green.7z
     ├── WiseCare365_6.2.1.607_Green.7z
@@ -572,6 +577,7 @@
     ├── Xshell_v7.0.0098.7z
     ├── Xshell_v7.0.0099.7z
     ├── Xshell_v7.0.0109.7z
+    ├── XYplorer_23.20.0000_Portable.7z
     ├── YoudaoDict_8.9.6.0_Green.7z
     ├── YYSpeak_9.6.0.0_Green.7z
     ├── 微信怀旧版_v3.3.0.115_多开防撤回绿色版.exe
@@ -587,4 +593,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-31 directories, 556 files
+31 directories, 562 files
