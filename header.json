@@ -7,7 +7,7 @@
     {
         "name": "i4tool",
         "url": "https://url.i4.cn/faIfqyaa",
-        "redirect": "https://d-ali4tool.i4.cn/i4tools/V7/v7.98/61/i4Tools_v7.98.61_Setup.exe"
+        "redirect": "https://d-ali4tool.i4.cn/i4tools/V7/v7.98/61a/i4Tools_v7.98.61_Setup.exe"
     },
     {
         "name": "cloudmusic",
@@ -32,8 +32,8 @@
     {
         "name": "youdao-dict",
         "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
-        "redirect": "http://download.ydstatic.cn/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
-        "version_redirect": "8.10.8.0#http://download.ydstatic.cn/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
+        "redirect": "https://codown.youdao.com/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
+        "version_redirect": "8.10.8.0#https://codown.youdao.com/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
         "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
