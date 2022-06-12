@@ -59,15 +59,6 @@
 │   ├── TotalCMD_v9.51_x64_Final_Plus_20200923.7z
 │   └── TotalCMD_v9.51_x86_Final_Plus_20200923.7z
 ├── jdk
-│   ├── jdk-11.0.13
-│   │   ├── jdk-11.0.13_linux-x64_bin.deb
-│   │   ├── jdk-11.0.13_linux-x64_bin.rpm
-│   │   ├── jdk-11.0.13_linux-x64_bin.tar.gz
-│   │   ├── jdk-11.0.13_osx-x64_bin.dmg
-│   │   ├── jdk-11.0.13_solaris-sparcv9_bin.tar.gz
-│   │   ├── jdk-11.0.13.txt
-│   │   ├── jdk-11.0.13_windows-x64_bin.exe
-│   │   └── jdk-11.0.13_windows-x64_bin.zip
 │   ├── jdk-11.0.13_linux-x64_bin.deb
 │   ├── jdk-11.0.13_linux-x64_bin.rpm
 │   ├── jdk-11.0.13_linux-x64_bin.tar.gz
@@ -76,15 +67,6 @@
 │   ├── jdk-11.0.13.txt
 │   ├── jdk-11.0.13_windows-x64_bin.exe
 │   ├── jdk-11.0.13_windows-x64_bin.zip
-│   ├── jdk-11.0.14
-│   │   ├── jdk-11.0.14_linux-x64_bin.deb
-│   │   ├── jdk-11.0.14_linux-x64_bin.rpm
-│   │   ├── jdk-11.0.14_linux-x64_bin.tar.gz
-│   │   ├── jdk-11.0.14_osx-x64_bin.dmg
-│   │   ├── jdk-11.0.14_solaris-sparcv9_bin.tar.gz
-│   │   ├── jdk-11.0.14.txt
-│   │   ├── jdk-11.0.14_windows-x64_bin.exe
-│   │   └── jdk-11.0.14_windows-x64_bin.zip
 │   ├── jdk-11.0.14_linux-x64_bin.deb
 │   ├── jdk-11.0.14_linux-x64_bin.rpm
 │   ├── jdk-11.0.14_linux-x64_bin.tar.gz
@@ -93,24 +75,6 @@
 │   ├── jdk-11.0.14.txt
 │   ├── jdk-11.0.14_windows-x64_bin.exe
 │   ├── jdk-11.0.14_windows-x64_bin.zip
-│   ├── jdk-11.0.15
-│   │   ├── jdk-11.0.15_linux-x64_bin.deb
-│   │   ├── jdk-11.0.15_linux-x64_bin.rpm
-│   │   ├── jdk-11.0.15_linux-x64_bin.tar.gz
-│   │   ├── jdk-11.0.15_osx-x64_bin.dmg
-│   │   ├── jdk-11.0.15_solaris-sparcv9_bin.tar.gz
-│   │   ├── jdk-11.0.15.txt
-│   │   ├── jdk-11.0.15_windows-x64_bin.exe
-│   │   └── jdk-11.0.15_windows-x64_bin.zip
-│   ├── jdk-11.0.15.1
-│   │   ├── jdk-11.0.15.1_linux-x64_bin.deb
-│   │   ├── jdk-11.0.15.1_linux-x64_bin.rpm
-│   │   ├── jdk-11.0.15.1_linux-x64_bin.tar.gz
-│   │   ├── jdk-11.0.15.1_osx-x64_bin.dmg
-│   │   ├── jdk-11.0.15.1_solaris-sparcv9_bin.tar.gz
-│   │   ├── jdk-11.0.15.1.txt
-│   │   ├── jdk-11.0.15.1_windows-x64_bin.exe
-│   │   └── jdk-11.0.15.1_windows-x64_bin.zip
 │   ├── jdk-11.0.15.1_linux-x64_bin.deb
 │   ├── jdk-11.0.15.1_linux-x64_bin.rpm
 │   ├── jdk-11.0.15.1_linux-x64_bin.tar.gz
@@ -127,18 +91,6 @@
 │   ├── jdk-11.0.15.txt
 │   ├── jdk-11.0.15_windows-x64_bin.exe
 │   ├── jdk-11.0.15_windows-x64_bin.zip
-│   ├── jdk-8u311
-│   │   ├── jdk-8u311-linux-i586.rpm
-│   │   ├── jdk-8u311-linux-i586.tar.gz
-│   │   ├── jdk-8u311-linux-x64.rpm
-│   │   ├── jdk-8u311-linux-x64.tar.gz
-│   │   ├── jdk-8u311-macosx-x64.dmg
-│   │   ├── jdk-8u311-solaris-sparcv9.tar.gz
-│   │   ├── jdk-8u311.txt
-│   │   ├── jdk-8u311-windows-i586.exe
-│   │   ├── jdk-8u311-windows-i586.zip
-│   │   ├── jdk-8u311-windows-x64.exe
-│   │   └── jdk-8u311-windows-x64.zip
 │   ├── jdk-8u311-linux-i586.rpm
 │   ├── jdk-8u311-linux-i586.tar.gz
 │   ├── jdk-8u311-linux-x64.rpm
@@ -150,18 +102,6 @@
 │   ├── jdk-8u311-windows-i586.zip
 │   ├── jdk-8u311-windows-x64.exe
 │   ├── jdk-8u311-windows-x64.zip
-│   ├── jdk-8u321
-│   │   ├── jdk-8u321-linux-i586.rpm
-│   │   ├── jdk-8u321-linux-i586.tar.gz
-│   │   ├── jdk-8u321-linux-x64.rpm
-│   │   ├── jdk-8u321-linux-x64.tar.gz
-│   │   ├── jdk-8u321-macosx-x64.dmg
-│   │   ├── jdk-8u321-solaris-sparcv9.tar.gz
-│   │   ├── jdk-8u321.txt
-│   │   ├── jdk-8u321-windows-i586.exe
-│   │   ├── jdk-8u321-windows-i586.zip
-│   │   ├── jdk-8u321-windows-x64.exe
-│   │   └── jdk-8u321-windows-x64.zip
 │   ├── jdk-8u321-linux-i586.rpm
 │   ├── jdk-8u321-linux-i586.tar.gz
 │   ├── jdk-8u321-linux-x64.rpm
@@ -173,19 +113,6 @@
 │   ├── jdk-8u321-windows-i586.zip
 │   ├── jdk-8u321-windows-x64.exe
 │   ├── jdk-8u321-windows-x64.zip
-│   ├── jdk-8u331
-│   │   ├── jdk-8u311-linux-i586.rpm
-│   │   ├── jdk-8u331-linux-i586.rpm
-│   │   ├── jdk-8u331-linux-i586.tar.gz
-│   │   ├── jdk-8u331-linux-x64.rpm
-│   │   ├── jdk-8u331-linux-x64.tar.gz
-│   │   ├── jdk-8u331-macosx-x64.dmg
-│   │   ├── jdk-8u331-solaris-sparcv9.tar.gz
-│   │   ├── jdk-8u331.txt
-│   │   ├── jdk-8u331-windows-i586.exe
-│   │   ├── jdk-8u331-windows-i586.zip
-│   │   ├── jdk-8u331-windows-x64.exe
-│   │   └── jdk-8u331-windows-x64.zip
 │   ├── jdk-8u331-linux-i586.rpm
 │   ├── jdk-8u331-linux-i586.tar.gz
 │   ├── jdk-8u331-linux-x64.rpm
@@ -197,18 +124,6 @@
 │   ├── jdk-8u331-windows-i586.zip
 │   ├── jdk-8u331-windows-x64.exe
 │   ├── jdk-8u331-windows-x64.zip
-│   ├── jdk-8u333
-│   │   ├── jdk-8u333-linux-i586.rpm
-│   │   ├── jdk-8u333-linux-i586.tar.gz
-│   │   ├── jdk-8u333-linux-x64.rpm
-│   │   ├── jdk-8u333-linux-x64.tar.gz
-│   │   ├── jdk-8u333-macosx-x64.dmg
-│   │   ├── jdk-8u333-solaris-sparcv9.tar.gz
-│   │   ├── jdk-8u333.txt
-│   │   ├── jdk-8u333-windows-i586.exe
-│   │   ├── jdk-8u333-windows-i586.zip
-│   │   ├── jdk-8u333-windows-x64.exe
-│   │   └── jdk-8u333-windows-x64.zip
 │   ├── jdk-8u333-linux-i586.rpm
 │   ├── jdk-8u333-linux-i586.tar.gz
 │   ├── jdk-8u333-linux-x64.rpm
@@ -220,14 +135,6 @@
 │   ├── jdk-8u333-windows-i586.zip
 │   ├── jdk-8u333-windows-x64.exe
 │   ├── jdk-8u333-windows-x64.zip
-│   ├── jre-8u311
-│   │   ├── jre-8u311-linux-x64.rpm
-│   │   ├── jre-8u311-linux-x64.tar.gz
-│   │   ├── jre-8u311-macosx-x64.dmg
-│   │   ├── jre-8u311-solaris-sparcv9.tar.gz
-│   │   ├── jre-8u311.txt
-│   │   ├── jre-8u311-windows-i586.exe
-│   │   └── jre-8u311-windows-x64.exe
 │   ├── jre-8u311-linux-i586.rpm
 │   ├── jre-8u311-linux-i586.tar.gz
 │   ├── jre-8u311-linux-x64.rpm
@@ -237,14 +144,6 @@
 │   ├── jre-8u311.txt
 │   ├── jre-8u311-windows-i586.exe
 │   ├── jre-8u311-windows-x64.exe
-│   ├── jre-8u321
-│   │   ├── jre-8u321-linux-i586.tar.gz
-│   │   ├── jre-8u321-linux-x64.rpm
-│   │   ├── jre-8u321-linux-x64.tar.gz
-│   │   ├── jre-8u321-macosx-x64.dmg
-│   │   ├── jre-8u321.txt
-│   │   ├── jre-8u321-windows-i586.exe
-│   │   └── jre-8u321-windows-x64.exe
 │   ├── jre-8u321-linux-i586.rpm
 │   ├── jre-8u321-linux-i586.tar.gz
 │   ├── jre-8u321-linux-x64.rpm
@@ -254,16 +153,6 @@
 │   ├── jre-8u321.txt
 │   ├── jre-8u321-windows-i586.exe
 │   ├── jre-8u321-windows-x64.exe
-│   ├── jre-8u331
-│   │   ├── jre-8u331-linux-i586.rpm
-│   │   ├── jre-8u331-linux-i586.tar.gz
-│   │   ├── jre-8u331-linux-x64.rpm
-│   │   ├── jre-8u331-linux-x64.tar.gz
-│   │   ├── jre-8u331-macosx-x64.dmg
-│   │   ├── jre-8u331-solaris-sparcv9.tar.gz
-│   │   ├── jre-8u331.txt
-│   │   ├── jre-8u331-windows-i586.exe
-│   │   └── jre-8u331-windows-x64.exe
 │   ├── jre-8u331-linux-i586.rpm
 │   ├── jre-8u331-linux-i586.tar.gz
 │   ├── jre-8u331-linux-x64.rpm
@@ -273,16 +162,6 @@
 │   ├── jre-8u331.txt
 │   ├── jre-8u331-windows-i586.exe
 │   ├── jre-8u331-windows-x64.exe
-│   ├── jre-8u333
-│   │   ├── jre-8u333-linux-i586.rpm
-│   │   ├── jre-8u333-linux-i586.tar.gz
-│   │   ├── jre-8u333-linux-x64.rpm
-│   │   ├── jre-8u333-linux-x64.tar.gz
-│   │   ├── jre-8u333-macosx-x64.dmg
-│   │   ├── jre-8u333-solaris-sparcv9.tar.gz
-│   │   ├── jre-8u333.txt
-│   │   ├── jre-8u333-windows-i586.exe
-│   │   └── jre-8u333-windows-x64.exe
 │   ├── jre-8u333-linux-i586.rpm
 │   ├── jre-8u333-linux-i586.tar.gz
 │   ├── jre-8u333-linux-x64.rpm
@@ -572,6 +451,7 @@
 │   ├── Pot_Player64_v220527(1.7.21637)_Dev.7z
 │   ├── Pot_Player64_v220531(1.7.21638)_Dev.7z
 │   ├── Pot_Player64_v220603(1.7.21639)_Dev.7z
+│   ├── Pot_Player64_v220610(1.7.21642)_Dev.7z
 │   ├── potplayer-skin-20220501.7z
 │   ├── QTranslate_Lite_v6.9.0.7z
 │   ├── rmtool_v7.4_2022017.exe
@@ -707,4 +587,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-31 directories, 676 files
+19 directories, 568 files
