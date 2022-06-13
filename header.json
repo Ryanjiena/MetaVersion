@@ -33,7 +33,7 @@
         "name": "youdao-dict",
         "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
         "redirect": "https://codown.youdao.com/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
-        "version_redirect": "8.10.8.0#https://codown.youdao.com/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
+        "version_redirect": "9.0.1.1#https://codown.youdao.com/cidian/static/9.0/20220608/YoudaoDictSetup.exe",
         "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
