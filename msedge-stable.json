@@ -1,26 +1,26 @@
 {
     "Product": "stable",
     "Version": "103.0.1264.37",
-    "CheckTime": "2022-06-24 01:01:34",
+    "CheckTime": "2022-06-24 03:56:37",
     "Release": [
         {
             "Architecture": "arm64",
             "ReleaseName": "MicrosoftEdge_ARM64_103.0.1264.37.exe",
-            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4c150c48-8bd3-422a-99f5-5fa84707301d?P1=1656637296&P2=404&P3=2&P4=AxQOmZzgsMaEGTsoi2NT7zaemRTBeFQv9Z3OOVcP886pGSftHAeyPa2C3r2uEUoRKkU7BoojnSXCwV2ogMSOVg%3d%3d",
+            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/4c150c48-8bd3-422a-99f5-5fa84707301d?P1=1656647798&P2=404&P3=2&P4=VDA1Dgll4wuz9trcJ5T15nfluQvMWICNz9USkw4n7DeaqeMEkPhVOWe45K4XeRaeKNBKt0Pime8YFdRzosJD6A%3d%3d",
             "Hash": "aa641f39797cd5dc58a87412318ca646049b5e50de6062e4bdad5c37f26b3b6e",
             "SizeInBytes": "116102056"
         },
         {
             "Architecture": "x86",
             "ReleaseName": "MicrosoftEdge_X86_103.0.1264.37.exe",
-            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/96de09e3-4e42-4cdc-b0ba-922db24e423d?P1=1656637296&P2=404&P3=2&P4=D9YpSmelXoxWeecBTim54Eg9UtLbw2krxxYpR6FRzKUpP64zStslvOWVVbNAiNNU%2bkwzxcesFQtMz4eweBeEwA%3d%3d",
+            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/96de09e3-4e42-4cdc-b0ba-922db24e423d?P1=1656647798&P2=404&P3=2&P4=H0EXwrWwOs2FlmfCUdYBivnbnRlpzNUj57BHWDNZDz4PWTXXkxCyKXlhdwJ4FpYKoRIaspx7OjA3CS1yHH7HXQ%3d%3d",
             "Hash": "52a224a528321bd423a0b8b0f3bb82a6ac627e1740a3dd76a27d9dfbef2803f4",
             "SizeInBytes": "113782696"
         },
         {
             "Architecture": "x64",
             "ReleaseName": "MicrosoftEdge_X64_103.0.1264.37.exe",
-            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/ddd65c12-b73b-4fa5-b0f2-67acdc5ff045?P1=1656637296&P2=404&P3=2&P4=UVVVk7GTnFyd9eBbkRLFuvIYRN2L%2fs1W09b3aG%2bI0NwalhG5EnS9UDBdrjcmZawtDPYdD0vpVGxIw5SHodrE5A%3d%3d",
+            "Location": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/ddd65c12-b73b-4fa5-b0f2-67acdc5ff045?P1=1656647798&P2=404&P3=2&P4=BTQrZFNlqucyJkLGiizllxgSp6iyviReY7gfFyLhf1GdOYybYfjR5hiZgVSzN1M%2byOZ0uHL569Z2gtUGjTZYxA%3d%3d",
             "Hash": "a6042cfdcfd56e7071004814d64536932d8d0dc54dc1ceec7c905200aa16ef2f",
             "SizeInBytes": "124563384"
         }
