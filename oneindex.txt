@@ -31,6 +31,7 @@
 │   ├── Clash.NET.1.2.8.zip
 │   ├── Corel All Products Universal KeyGen 2022 X-FORCE.rar
 │   ├── DirectX_Repair(Enhanced_Edition)_v4.1.0.30770.7z
+│   ├── DirectX_Repair(Enhanced_Edition)_v4.2.0.40217.7z
 │   ├── DocBox_v2.11.67.7z
 │   ├── FileShred_v5.0.0.1.7z
 │   ├── Flash_34.0.0.242_Patch.7z
@@ -434,8 +435,12 @@
 ├── typora
 │   ├── app_asar_file_v1.2.5-windows-x64.zip
 │   ├── app_asar_file_v1.2.5-windows-x86.zip
-│   ├── app_asar_folder_v1.2.5-windows-x64.zip
-│   ├── app_asar_folder_v1.2.5-windows-x86.zip
+│   ├── app_asar_file_v1.3.6-linux-x64.zip
+│   ├── app_asar_file_v1.3.6-windows-x64.zip
+│   ├── app_asar_file_v1.3.6-windows-x86.zip
+│   ├── app_asar_file_v1.3.7-windows-x64.zip
+│   ├── app_asar_file_v1.3.7-windows-x86.zip
+│   ├── app_asar_folder_v1.3.6-linux-x64.zip
 │   ├── app-linux-1.2.4-x64.asar
 │   ├── app-windows-1.2.4-x64.asar
 │   ├── app-windows-1.2.4-x86.asar
@@ -446,16 +451,22 @@
 │   ├── dec_app-linux-1.2.4-x64.zip
 │   ├── dec_app-windows-1.2.4-x64.zip
 │   ├── dec_app-windows-1.2.4-x86.zip
+│   ├── TC-master.zip
 │   ├── typora_0.11.18_amd64.deb
 │   ├── typora_0.11.18_ia32_1117.exe
 │   ├── typora_0.11.18_x64_1117.exe
 │   ├── typora_1.2.4_amd64.deb
+│   ├── TyporaGreen-master.zip
 │   ├── typora-setup-ia32-1.2.4.exe
 │   ├── typora-setup-ia32-1.2.5.exe
+│   ├── typora-setup-ia32-1.3.6.exe
+│   ├── typora-setup-ia32-1.3.7.exe
 │   ├── typora-setup-x64-1.2.4.exe
 │   ├── typora-setup-x64-1.2.5.exe
 │   ├── typora-setup-x64-1.3.2-dev.exe
 │   ├── typora-setup-x64-1.3.3-dev.exe
+│   ├── typora-setup-x64-1.3.6.exe
+│   ├── typora-setup-x64-1.3.7.exe
 │   ├── TyProAction-main.zip
 │   ├── Typro-Update-V1.2.5.exe
 │   ├── Typro-Update-V1.3.0-dev.exe
@@ -492,6 +503,7 @@
 │   ├── Pot_Player64_v220610(1.7.21642)_Dev.7z
 │   ├── Pot_Player64_v220617(1.7.21692)_Dev.7z
 │   ├── Pot_Player64_v220623(1.7.21697)_Dev.7z
+│   ├── Pot_Player64_v220624(1.7.21699)_Dev.7z
 │   ├── potplayer-skin-20220501.7z
 │   ├── QTranslate_Lite_v6.9.0.7z
 │   ├── rmtool_v7.4_2022017.exe
@@ -632,4 +644,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-19 directories, 613 files
+19 directories, 625 files
