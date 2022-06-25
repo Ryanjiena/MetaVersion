@@ -1,7 +1,7 @@
 [
     {
         "Product": "stable",
-        "CheckTime": "2022-06-24 21:10:20",
+        "CheckTime": "2022-06-25 01:01:30",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -55,7 +55,7 @@
     },
     {
         "Product": "beta",
-        "CheckTime": "2022-06-24 21:10:20",
+        "CheckTime": "2022-06-25 01:01:30",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -109,39 +109,39 @@
     },
     {
         "Product": "dev",
-        "CheckTime": "2022-06-24 21:10:20",
+        "CheckTime": "2022-06-25 01:01:30",
         "Release": [
             {
                 "Architecture": "win-x86",
-                "Version": "104.0.5112.20",
-                "ReleaseName": "104.0.5112.20_chrome_installer.exe",
+                "Version": "105.0.5137.4",
+                "ReleaseName": "105.0.5137.4_chrome_installer.exe",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "https://dl.google.com/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "https://www.google.com/dl/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://dl.google.com/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://www.google.com/dl/release2/chrome/adbzvvqw6rnsapqkfwbs7cdzaiiq_104.0.5112.20/104.0.5112.20_chrome_installer.exe"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "https://dl.google.com/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "https://www.google.com/dl/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://dl.google.com/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://www.google.com/dl/release2/chrome/ka32x5yafdztiixbxbqnkgmley_105.0.5137.4/105.0.5137.4_chrome_installer.exe"
                 ],
-                "Hash": "e741acd6535cb9f4e83ed87aaf522c7cd90117595db8ea9b763103efc6344eaa",
+                "Hash": "85116c8099b65d90eaea86aada862947620d0b67754cab685cf6a024acf0611a",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "85528664"
+                "SizeInBytes": "85957720"
             },
             {
                 "Architecture": "win-x64",
-                "Version": "104.0.5112.20",
-                "ReleaseName": "104.0.5112.20_chrome_installer.exe",
+                "Version": "105.0.5137.4",
+                "ReleaseName": "105.0.5137.4_chrome_installer.exe",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "https://dl.google.com/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "https://www.google.com/dl/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://dl.google.com/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe",
-                    "http://www.google.com/dl/release2/chrome/og7vhhvdmr7knohjthsrsye6se_104.0.5112.20/104.0.5112.20_chrome_installer.exe"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "https://dl.google.com/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "https://www.google.com/dl/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://dl.google.com/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe",
+                    "http://www.google.com/dl/release2/chrome/adeavdbo66lxlllihx3gblao3n6a_105.0.5137.4/105.0.5137.4_chrome_installer.exe"
                 ],
-                "Hash": "53720f9fac1acb6c14d19348431e4f783bdc3bc48063c5b2259185c55a59a92c",
+                "Hash": "81c13adb960fb76240d919ff8dd7407fda59a576e97ac852604f5a61d4e3d50f",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "89300056"
+                "SizeInBytes": "89719384"
             },
             {
                 "Architecture": "mac-x64",
@@ -163,7 +163,7 @@
     },
     {
         "Product": "canary",
-        "CheckTime": "2022-06-24 21:10:20",
+        "CheckTime": "2022-06-25 01:01:30",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -199,19 +199,19 @@
             },
             {
                 "Architecture": "mac-x64",
-                "Version": "105.0.5139.0",
-                "ReleaseName": "GoogleChromeCanary-105.0.5139.0.dmg",
+                "Version": "105.0.5140.0",
+                "ReleaseName": "GoogleChromeCanary-105.0.5140.0.dmg",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg",
-                    "https://dl.google.com/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg",
-                    "https://www.google.com/dl/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg",
-                    "http://dl.google.com/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg",
-                    "http://www.google.com/dl/release2/chrome/adq4mw5o4zhwawlbkh6fsjlykr3a_105.0.5139.0/GoogleChromeCanary-105.0.5139.0.dmg"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg",
+                    "https://dl.google.com/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg",
+                    "https://www.google.com/dl/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg",
+                    "http://dl.google.com/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg",
+                    "http://www.google.com/dl/release2/chrome/aja3yzt45zlwqryquogj5vx63i_105.0.5140.0/GoogleChromeCanary-105.0.5140.0.dmg"
                 ],
-                "Hash": "7a0e82a12efa1b9e3aff6a3867d1a041a0d48d5568f352bf592c88f3598915e6",
+                "Hash": "397698da7dd826de73a9c3f0e2c414edaff04f4bb55c28c3767178935646dc49",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "202102906"
+                "SizeInBytes": "201896192"
             }
         ]
     }
