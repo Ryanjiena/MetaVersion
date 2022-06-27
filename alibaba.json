@@ -1,40 +1,40 @@
 [
     {
         "name": "aDrive",
-        "checkTime": "2022-06-27 04:03:27",
+        "checkTime": "2022-06-27 06:17:30",
         "version": "3.6.0",
         "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/3.6.0/update/win32/ia32/aDrive-3.6.0.exe",
         "hash": "25d34b4bf5d03bf814d2a661ff2c3e988ae8a26537b0b7eb93a22da3770f5254e4ac0a7b8ba879eef99f8f02505270ddf2a595ff29e978b7706655892b073183"
     },
     {
         "name": "AlipayDevelopmentAssistant",
-        "checkTime": "2022-06-27 04:03:27",
-        "version": "1.0.11",
-        "url": "https://gw.alipayobjects.com/os/bmw-prod/02b946e1-9faf-4394-8004-d241443c874e.exe"
+        "checkTime": "2022-06-27 06:17:30",
+        "version": "",
+        "url": ""
     },
     {
         "name": "DingTalk",
-        "checkTime": "2022-06-27 04:03:27",
+        "checkTime": "2022-06-27 06:17:30",
         "version": "6.5.20-Release.6139101",
         "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v6.5.20.6139101.exe",
         "hash": "a937a2069b755bf5c37880723a762384"
     },
     {
         "name": "Teambition",
-        "checkTime": "2022-06-27 04:03:27",
+        "checkTime": "2022-06-27 06:17:30",
         "version": "2.0.2",
         "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/Teambition/2.0.2/update/win32/ia32/Teambition-2.0.2-win.exe",
         "hash": "a6106914bf615e88ad3bc767b1d9fe6d45fbb7f1ca9a8ba4f508f85eafcf3fdfa1598600e75b184c99b89b32bb35eb70a7c3dbbb095a3ffa58009fd7c2b7d801"
     },
     {
         "name": "Yuque-Stable",
-        "checkTime": "2022-06-27 04:03:27",
+        "checkTime": "2022-06-27 06:17:30",
         "version": "1.1.4",
         "url": "https://app.nlark.com/yuque-desktop/1.1.4/Yuque-1.1.4.exe"
     },
     {
         "name": "Yuque-Insiders",
-        "checkTime": "2022-06-27 04:03:27",
+        "checkTime": "2022-06-27 06:17:30",
         "version": "1.1.4",
         "url": "https://app.nlark.com/yuque-desktop/1.1.4/Yuque-1.1.4.exe"
     }
