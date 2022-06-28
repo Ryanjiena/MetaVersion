@@ -55,6 +55,8 @@
 │   ├── wps2019pro.11.8.2.11542lite-nocef.7z
 │   ├── WPS2019专业增强版_v11.8.2.10972_中石油定制版.exe
 │   ├── 小七-文字转语音(TTS)-2.4.zip
+│   ├── 微信公众号文章下载器_v1.1.rar
+│   ├── 微信公众号文章下载器_v1.2.rar
 │   ├── 投屏控制器32位_V3.1.0.7z
 │   ├── 投屏控制器64位_V3.1.0.7z
 │   └── 搞机工具箱V8.41.zip
@@ -449,14 +451,20 @@
 │   └── sha256sum.txt
 ├── tree.txt
 ├── typora
+│   ├── app_asar_file_v1.2.4-linux-x64.zip
+│   ├── app_asar_file_v1.2.4-windows-x64.zip
+│   ├── app_asar_file_v1.2.4-windows-x86.zip
 │   ├── app_asar_file_v1.2.5-windows-x64.zip
 │   ├── app_asar_file_v1.2.5-windows-x86.zip
+│   ├── app_asar_file_v1.3.0-dev-linux-x64.zip
+│   ├── app_asar_file_v1.3.0-dev-windows-x64.zip
 │   ├── app_asar_file_v1.3.6-linux-x64.zip
 │   ├── app_asar_file_v1.3.6-windows-x64.zip
 │   ├── app_asar_file_v1.3.6-windows-x86.zip
 │   ├── app_asar_file_v1.3.7-windows-x64.zip
 │   ├── app_asar_file_v1.3.7-windows-x86.zip
-│   ├── app_asar_folder_v1.3.6-linux-x64.zip
+│   ├── app_asar_file_v1.3.8-windows-x64.zip
+│   ├── app_asar_file_v1.3.8-windows-x86.zip
 │   ├── app-linux-1.2.4-x64.asar
 │   ├── app-windows-1.2.4-x64.asar
 │   ├── app-windows-1.2.4-x86.asar
@@ -477,12 +485,15 @@
 │   ├── typora-setup-ia32-1.2.5.exe
 │   ├── typora-setup-ia32-1.3.6.exe
 │   ├── typora-setup-ia32-1.3.7.exe
+│   ├── typora-setup-ia32-1.3.8.exe
 │   ├── typora-setup-x64-1.2.4.exe
 │   ├── typora-setup-x64-1.2.5.exe
+│   ├── typora-setup-x64-1.3.0-dev.exe
 │   ├── typora-setup-x64-1.3.2-dev.exe
 │   ├── typora-setup-x64-1.3.3-dev.exe
 │   ├── typora-setup-x64-1.3.6.exe
 │   ├── typora-setup-x64-1.3.7.exe
+│   ├── typora-setup-x64-1.3.8.exe
 │   ├── TyProAction-main.zip
 │   ├── Typro-Update-V1.2.5.exe
 │   ├── Typro-Update-V1.3.0-dev.exe
@@ -654,4 +665,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-19 directories, 635 files
+19 directories, 646 files
