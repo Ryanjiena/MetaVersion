@@ -1,7 +1,7 @@
 [
     {
         "Product": "stable",
-        "CheckTime": "2022-06-29 18:18:26",
+        "CheckTime": "2022-06-29 21:11:12",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -55,7 +55,7 @@
     },
     {
         "Product": "beta",
-        "CheckTime": "2022-06-29 18:18:26",
+        "CheckTime": "2022-06-29 21:11:12",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -109,7 +109,7 @@
     },
     {
         "Product": "dev",
-        "CheckTime": "2022-06-29 18:18:26",
+        "CheckTime": "2022-06-29 21:11:12",
         "Release": [
             {
                 "Architecture": "win-x86",
@@ -163,39 +163,39 @@
     },
     {
         "Product": "canary",
-        "CheckTime": "2022-06-29 18:18:26",
+        "CheckTime": "2022-06-29 21:11:12",
         "Release": [
             {
                 "Architecture": "win-x86",
-                "Version": "105.0.5149.0",
-                "ReleaseName": "105.0.5149.0_chrome_installer.exe",
+                "Version": "105.0.5150.0",
+                "ReleaseName": "105.0.5150.0_chrome_installer.exe",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "https://dl.google.com/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "https://www.google.com/dl/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://dl.google.com/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://www.google.com/dl/release2/chrome/iflyctq43jxypx54s5wtbqlz74_105.0.5149.0/105.0.5149.0_chrome_installer.exe"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "https://dl.google.com/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "https://www.google.com/dl/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://dl.google.com/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://www.google.com/dl/release2/chrome/adggbtmttty6wohysaswlk44ickq_105.0.5150.0/105.0.5150.0_chrome_installer.exe"
                 ],
-                "Hash": "1998e67163e9424a95a5c5c7e4e5c3aa9f45194793a48fbfa4f67058f9a00ea8",
+                "Hash": "3833140d1cf67d09758cb507e559065f9330ba12f722bfdd50ed55d634981326",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "86036056"
+                "SizeInBytes": "86184024"
             },
             {
                 "Architecture": "win-x64",
-                "Version": "105.0.5149.0",
-                "ReleaseName": "105.0.5149.0_chrome_installer.exe",
+                "Version": "105.0.5150.0",
+                "ReleaseName": "105.0.5150.0_chrome_installer.exe",
                 "Location": [
-                    "https://redirector.gvt1.com/edgedl/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "https://dl.google.com/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "https://www.google.com/dl/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://redirector.gvt1.com/edgedl/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://dl.google.com/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe",
-                    "http://www.google.com/dl/release2/chrome/oazu3ppmjvgegajku7hwjqolny_105.0.5149.0/105.0.5149.0_chrome_installer.exe"
+                    "https://redirector.gvt1.com/edgedl/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "https://dl.google.com/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "https://www.google.com/dl/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://redirector.gvt1.com/edgedl/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://dl.google.com/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe",
+                    "http://www.google.com/dl/release2/chrome/ga5quhzkkt4t4vxn4dd4gpuwai_105.0.5150.0/105.0.5150.0_chrome_installer.exe"
                 ],
-                "Hash": "d1b0693e063f87e044b88fd9f447ffc43762e2bed71f2a4305fe2e24aa15eb72",
+                "Hash": "986a3007e7c2b9fbe092ef9134f5b71241305c651a297faadb9b3e5463e43083",
                 "HashAlgorithm": "SHA256",
-                "SizeInBytes": "90046552"
+                "SizeInBytes": "89952856"
             },
             {
                 "Architecture": "mac-x64",
