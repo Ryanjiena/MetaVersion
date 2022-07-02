@@ -185,7 +185,6 @@
 │   ├── jre-8u333.txt
 │   ├── jre-8u333-windows-i586.exe
 │   └── jre-8u333-windows-x64.exe
-├── leetcode.json
 ├── lrepacks
 │   ├── aida64_6.70.6000.zip
 │   ├── aimp_5.02.2370_ext.zip
@@ -260,6 +259,7 @@
 │   ├── jb-genuine-license-servers-220412.txt
 │   ├── jb-genuine-license-servers.txt
 │   ├── jetbra-20220615-d6c629ec27fe941e5a5eb0273693b3c3f22c469d.zip
+│   ├── jetbra-20220701-bfcd6f85fcbc8859f7d096be09db50f2548f2eb8.zip
 │   ├── LeetCode-Assistant-2022.2.11-ckd-68b4ddd49855ab7234d1aaa1ee9abe1213cc7578.zip
 │   ├── LeetCode-Assistant-2022.2.12-ckd-be95bba0dad58638f6f5ca0869538f121b1903bb.zip
 │   ├── LeetCode-Assistant-2022.2.2-ckd-59a3a042c131041844eee3f5048c565d637a5734.zip
@@ -359,6 +359,7 @@
 │   ├── 搜狗输入法v12.1.0.6000核心型绿色精简版.7z
 │   ├── 搜狗输入法v12.1.0.6042去广告精简优化版.exe
 │   ├── 搜狗输入法v12.1.0.6042核心型绿色精简版.7z
+│   ├── 搜狗输入法v12.1.0.6042核心型绿色精简版v2.7z
 │   ├── 搜狗输入法v9.8b(3746)去广告精简优化版.exe
 │   └── 搜狗输入法医生版_1.1.0.1278_精简优化版.exe
 ├── tencent
@@ -535,6 +536,7 @@
 │   ├── Pot_Player64_v220623(1.7.21697)_Dev.7z
 │   ├── Pot_Player64_v220624(1.7.21699)_Dev.7z
 │   ├── potplayer-skin-20220501.7z
+│   ├── Pot_Player_v191121(1.7.21024)_Dev.7z
 │   ├── QTranslate_Lite_v6.9.0.7z
 │   ├── rmtool_v7.4_2022017.exe
 │   ├── Rolan_v1.3.6.1_NoNet_2016.04-fix.7z
@@ -669,4 +671,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-19 directories, 650 files
+19 directories, 652 files
