@@ -12,7 +12,7 @@
     {
         "name": "cloudmusic",
         "url": "https://music.163.com/api/pc/package/download/latest",
-        "redirect": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_2.9.10.200061.exe"
+        "redirect": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_2.10.2.200154.exe"
     },
     {
         "name": "wemod-stable",
@@ -33,7 +33,7 @@
         "name": "youdao-dict",
         "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
         "redirect": "https://codown.youdao.com/cidian/static/9.0/20220708/YoudaoDictSetup.exe",
-        "version_redirect": "9.0.1.1#https://codown.youdao.com/cidian/static/9.0/20220708/YoudaoDictSetup.exe",
+        "version_redirect": "9.0.4.0#https://codown.youdao.com/cidian/static/9.0/20220708/YoudaoDictSetup.exe",
         "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
