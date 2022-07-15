@@ -2,7 +2,7 @@
     {
         "name": "wxwork",
         "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex",
-        "redirect": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.8.6027.exe"
+        "redirect": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.8.6604.exe"
     },
     {
         "name": "i4tool",
@@ -22,7 +22,7 @@
     {
         "name": "wemod-beta",
         "url": "https://api.wemod.com/client/channels/beta/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.0-beta06.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.0-beta07.exe"
     },
     {
         "name": "dotnet35-sp1",
