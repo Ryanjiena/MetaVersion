@@ -22,6 +22,8 @@
 ├── else
 │   ├── 2345Pic_10.9.0.9730_优化版_X64.7z
 │   ├── 2345Pic_10.9.0.9730_优化版_X86.7z
+│   ├── 2345文件粉碎工具_startup_v7.5.2.zip
+│   ├── 2345文件粉碎工具_v7.5.2.zip
 │   ├── Adobe_Flash_Player一剑全清__V4.7z
 │   ├── Appbench_v1.0.zip
 │   ├── bongo_cat_mver_0.1.6_32.zip
@@ -70,6 +72,7 @@
 │   ├── 搞机工具箱V9.10.7z
 │   ├── 数码小站_V0.2.1.zip
 │   ├── 文迅网络助手_v1.0.5.exe
+│   ├── 火绒文件粉碎工具_v4.0.0.0.zip
 │   ├── 阿里云盘小白羊版_3.05.23.exe
 │   └── 阿里小白羊版Win_v2.12.14.7z
 ├── iyoung
@@ -77,10 +80,14 @@
 │   ├── TCCEE_x64_v7.0a(10.00).exe
 │   ├── TCCEE_x64_v7.1(10.00).7z
 │   ├── TCCEE_x64_v7.1(10.00).exe
+│   ├── TCCEE_x64_v8.0(10.50).7z
+│   ├── TCCEE_x64_v8.0(10.50).exe
 │   ├── TCCEE_x86_v7.0a(10.00).7z
 │   ├── TCCEE_x86_v7.0a(10.00).exe
 │   ├── TCCEE_x86_v7.1(10.00).7z
 │   ├── TCCEE_x86_v7.1(10.00).exe
+│   ├── TCCEE_x86_v8.0(10.50).7z
+│   ├── TCCEE_x86_v8.0(10.50).exe
 │   ├── TotalCMD_v10.0_x64_Final_Plus_20210611.7z
 │   ├── TotalCMD_v9.51_x64_Final_Plus_20200923.7z
 │   └── TotalCMD_v9.51_x86_Final_Plus_20200923.7z
@@ -612,6 +619,7 @@
     ├── bdzshl.x86.dll
     ├── Beyond_Compare_4.4.1.26165_64bit_Green.7z
     ├── Beyond_Compare_4.4.2.26348_64bit_Green.7z
+    ├── Beyond_Compare_Pro_v4.4.2.26348_x64.7z
     ├── BitComet_1.85_Green.7z
     ├── BitComet_1.89_Green.7z
     ├── BitComet_1.91_Green.7z
@@ -685,6 +693,7 @@
     ├── x64dbg_2022-06-15_Mod_Green.7z
     ├── x64dbg_2022-06-30_Mod_Green.7z
     ├── x64dbg_2022-07-04_Mod_Green.7z
+    ├── Xftp-7.0.0109.7z
     ├── Xftp_v7.0.0088.7z
     ├── Xftp_v7.0.0091.7z
     ├── Xftp_v7.0.0094.7z
@@ -692,6 +701,8 @@
     ├── Xftp_v7.0.0097.7z
     ├── Xftp_v7.0.0107.7z
     ├── XmanagerPowerSuite-7.0.0016.7z
+    ├── Xshell-7.0.0111.7z
+    ├── XshellPlus-7.0.0019.7z
     ├── XshellPlus_v7.0.0015.7z
     ├── XshellPlus_v7.0.0016.7z
     ├── XshellPlus_v7.0.0018.7z
@@ -718,4 +729,4 @@
     ├── 驱动精灵标准版_v9.70.0.104_纯净版绿色单文件.exe
     └── 驱动精灵網卡版_v9.70.0.104_纯净版绿色单文件.exe
 
-19 directories, 699 files
+19 directories, 710 files
