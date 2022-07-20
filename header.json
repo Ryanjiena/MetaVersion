@@ -17,12 +17,12 @@
     {
         "name": "wemod-stable",
         "url": "https://api.wemod.com/client/channels/stable/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.2.0.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.3.0.exe"
     },
     {
         "name": "wemod-beta",
         "url": "https://api.wemod.com/client/channels/beta/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.0-beta09.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.0-beta10.exe"
     },
     {
         "name": "dotnet35-sp1",
