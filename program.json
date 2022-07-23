@@ -40,5 +40,11 @@
         "regex": "定制版本：",
         "url": "http://iyoung.ysepan.com",
         "version": "7.0a"
+    },
+    "sarasa": {
+        "name": "sarasa-gothic",
+        "version": "2.0.0",
+        "ttc": "0x8b8b8b8b",
+        "ttf": "0x8b8b8b8bggh"
     }
 }

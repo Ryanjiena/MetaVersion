@@ -16,7 +16,7 @@ Info="${Green_font_prefix}[Info]${Font_color_suffix}"
 Error="${Red_font_prefix}[Error]${Font_color_suffix}"
 Tip="${Green_font_prefix}[Tip]${Font_color_suffix}"
 
-for item in "alibaba" "header" "chrome" "msedge" "shuax-new" "workflows"; do
+for item in "alibaba" "header" "chrome" "msedge" "shuax-new" "workflows" "sarasa-gothic"; do
     cd ${check_dir}
     echo -e "${Green_font_prefix}[Info] Check ${item}...${Font_color_suffix}"
     sed -i 's/\r$//' check-${item}.sh
