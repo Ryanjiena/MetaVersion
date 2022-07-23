@@ -23,9 +23,12 @@ function check() {
         local ttchash=$(curl -sSL -H "User-Agent: ${userAgent}" ${ttcurl} | sha256sum | awk '{print $1}')
         local ttfhash=$(curl -sSL -H "User-Agent: ${userAgent}" ${ttfurl} | sha256sum | awk '{print $1}')
 
+        echo -e "${Green_font_prefix}latest version${Font_color_suffix} -> ${latestversion}"
+        echo -e "${Green_font_prefix}ttc hash${Font_color_suffix} -> ${ttchash}"
+        echo -e "${Green_font_prefix}ttf hash${Font_color_suffix} -> ${ttfhash}"
+
         sed -e "s|${localinfo[1]}|${latestversion}|g" -e "s|${localinfo[2]}|${ttchash}|g" -e "s|${localinfo[3]}|${ttfhash}|g" -i ../program.json
     fi
-
 }
 
 check
