@@ -94,6 +94,14 @@
             "destination": "https://github.com/shuax/edge_plus/actions/runs/2267461250"
         },
         {
+            "source": "/crystal-lang/crystal",
+            "destination": "https://github.com/crystal-lang/crystal/actions/runs/2733012772"
+        },
+        {
+            "source": "/HMBSbige/ShadowsocksR-Windows",
+            "destination": "https://github.com/HMBSbige/ShadowsocksR-Windows/actions/runs/2738832773"
+        },
+        {
             "source": "/(.*)",
             "destination": "https://github.com/Ryanjiena/MetaVersion"
         }

@@ -23,5 +23,15 @@
         "name": "shuax/edge_plus",
         "workflow": "build",
         "branch": "main"
+    },
+    "crystal-lang/crystal": {
+        "name": "crystal-lang/crystal",
+        "workflow": "win",
+        "branch": "master"
+    },
+    "HMBSbige/ShadowsocksR-Windows": {
+        "name": "HMBSbige/ShadowsocksR-Windows",
+        "workflow": "CI",
+        "branch": "master"
     }
 }
