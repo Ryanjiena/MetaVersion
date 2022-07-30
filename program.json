@@ -43,8 +43,8 @@
     },
     "sarasa": {
         "name": "sarasa-gothic",
-        "version": "0.36.8",
-        "ttc": "b0ba42e20d7a369558a35d57e1a81f2ce01bf6e24bc16511039fe5907f2dd605",
-        "ttf": "aa1ceecb06a5c87a6592b50e93a04b33565e8864ecfe05daa34a740bdc4474ca"
+        "version": "",
+        "ttc": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+        "ttf": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     }
 }
