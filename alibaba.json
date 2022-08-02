@@ -1,40 +1,40 @@
 [
     {
         "name": "aDrive",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "3.7.1",
         "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/3.7.1/win32/ia32/aDrive-3.7.1.exe",
         "hash": "294c21da9174f051afdf5b34b1888eec31a9cddc3b866c24c6d614bd5fc23885df65fa965725efa9bc5a9c806a3671da243d6a9d93a36924535d4fd02c900fdc"
     },
     {
         "name": "AlipayDevelopmentAssistant",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "1.0.12",
         "url": "https://gw.alipayobjects.com/os/bmw-prod/75543cb1-bd1c-4306-aa73-af9e637187a1.exe"
     },
     {
         "name": "DingTalk",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "6.5.30-Release.7289101",
         "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v6.5.30.7289101.exe",
         "hash": "cc1aeab5c061542452fda55213a9f3a6"
     },
     {
         "name": "Teambition",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "2.0.2",
         "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/Teambition/2.0.2/update/win32/ia32/Teambition-2.0.2-win.exe",
         "hash": "a6106914bf615e88ad3bc767b1d9fe6d45fbb7f1ca9a8ba4f508f85eafcf3fdfa1598600e75b184c99b89b32bb35eb70a7c3dbbb095a3ffa58009fd7c2b7d801"
     },
     {
         "name": "Yuque-Stable",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "1.1.4",
         "url": "https://app.nlark.com/yuque-desktop/1.1.4/Yuque-1.1.4.exe"
     },
     {
         "name": "Yuque-Insiders",
-        "checkTime": "2022-08-02 15:12:20",
+        "checkTime": "2022-08-02 18:15:04",
         "version": "1.1.4",
         "url": "https://app.nlark.com/yuque-desktop/1.1.4/Yuque-1.1.4.exe"
     }
