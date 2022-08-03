@@ -22,7 +22,7 @@
     {
         "name": "wemod-beta",
         "url": "https://api.wemod.com/client/channels/beta/releases/latest",
-        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.0-beta10.exe"
+        "redirect": "https://storage-cdn.wemod.com/app/releases/beta/WeMod-8.3.1-beta00.exe"
     },
     {
         "name": "dotnet35-sp1",
@@ -33,7 +33,7 @@
         "name": "youdao-dict",
         "url": "http://cidian.youdao.com/download/YoudaoDict.exe",
         "redirect": "https://codown.youdao.com/cidian/static/9.0/20220802/viptestb/YoudaoDictSetup.exe",
-        "version_redirect": "9.0.4.0#https://codown.youdao.com/cidian/static/9.0/20220802/viptestb/YoudaoDictSetup.exe",
+        "version_redirect": "#https://codown.youdao.com/cidian/static/9.0/20220802/viptestb/YoudaoDictSetup.exe",
         "versionurl": "https://cidian.youdao.com/apps/update5/fdictupdate.xml?ver=1500"
     }
 ]
